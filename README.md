@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Welcome to my website. I'm new to this.
+
+npm scripts below.
+
+### 'npm run deploy'
+-> deploys to github pages.
+
+### 'npm start'
+-> start :D
+
 ## Available Scripts
 
 In the project directory, you can run:
