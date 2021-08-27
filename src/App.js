@@ -23,7 +23,7 @@ function App() {
   return (
     <Router basename='/'>
       <div className="App">
-        <Navbar collapseOnSelect expand="lg" bg="secondary">
+        <Navbar collapseOnSelect expand="lg" bg="App-link" sticky="top">
           <Container>
             <Navbar.Brand as={Link} to="/">Anthony Luo</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
