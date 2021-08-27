@@ -77,3 +77,21 @@ const Home = () => (
     </a>
   </header>
 );
+
+const Work = () => (
+  <header className="App-header">
+    <h1>page under development! Come back soon</h1>
+  </header>
+)
+
+const Resume = () => (
+  <header className="App-header">
+    <h1>page under development! Come back soon</h1>
+  </header>
+)
+
+const Project = () => (
+  <header className="App-header">
+    <h1>page under development! Come back soon</h1>
+  </header>
+)
