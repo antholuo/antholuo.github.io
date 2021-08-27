@@ -24,7 +24,7 @@ function App() {
   return (
     <Router basename='/'>
       <div className="App">
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="light">
           <Container>
             <Navbar.Brand as={Link} to="/">Anthony Luo</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -61,7 +61,7 @@ function App() {
 export default App;
 
 const Home = () => (
-  <header className="App-header">
+  <header>
     <img src={logo} className="App-logo" alt="logo" />
     <p>
       Edit <code>src/App.js</code> and save to reload. <br></br>
@@ -79,19 +79,19 @@ const Home = () => (
 );
 
 const Work = () => (
-  <header className="App-header">
+  <header>
     <h1>page under development! Come back soon</h1>
   </header>
 )
 
 const Resume = () => (
-  <header className="App-header">
+  <header>
     <h1>page under development! Come back soon</h1>
   </header>
 )
 
 const Project = () => (
-  <header className="App-header">
+  <header>
     <h1>page under development! Come back soon</h1>
   </header>
 )
