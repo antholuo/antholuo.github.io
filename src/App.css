@@ -25,7 +25,7 @@
 }
 
 .light-header {
-  background-color: whitesmoke;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,6 +37,11 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.bgc1 {
+  background-color:powderblue;
+  color: powderblue;
 }
 
 @keyframes App-logo-spin {
