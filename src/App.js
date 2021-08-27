@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 
-import ReactDOM from 'react-dom';
 import { Route, Link, HashRouter as Router } from 'react-router-dom'
 
 import About from './About'
@@ -61,7 +60,7 @@ function App() {
 export default App;
 
 const Home = () => (
-  <header>
+  <header className="light-header">
     <img src={logo} className="App-logo" alt="logo" />
     <p>
       Edit <code>src/App.js</code> and save to reload. <br></br>
@@ -79,19 +78,19 @@ const Home = () => (
 );
 
 const Work = () => (
-  <header>
+  <header className="light-header">
     <h1>page under development! Come back soon</h1>
   </header>
 )
 
 const Resume = () => (
-  <header>
+  <header className="light-header">
     <h1>page under development! Come back soon</h1>
   </header>
 )
 
 const Project = () => (
-  <header>
+  <header className="App-header">
     <h1>page under development! Come back soon</h1>
   </header>
 )
