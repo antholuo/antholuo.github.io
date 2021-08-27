@@ -63,8 +63,7 @@ const Home = () => (
   <header className="light-header">
     <img src={logo} className="App-logo" alt="logo" />
     <p>
-      Edit <code>src/App.js</code> and save to reload. <br></br>
-      Website in progress :D
+      Website in progress :D. Expect updates regularly ^.^ !
     </p>
     <a
       className="App-link"
