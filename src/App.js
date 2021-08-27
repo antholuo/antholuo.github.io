@@ -63,7 +63,7 @@ const Home = () => (
   <header className="light-header">
     <img src={logo} className="App-logo" alt="logo" />
     <p>
-      Website in progress :D. Expect updates regularly ^.^ !
+      Website in progress :D. Expect updates regularly!
     </p>
     <a
       className="App-link"
