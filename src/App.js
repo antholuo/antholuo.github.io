@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 
 import ReactDOM from 'react-dom';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import { Route, Link, HashRouter as Router } from 'react-router-dom'
 
 import About from './About'
 
@@ -22,7 +22,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
       <div className="App">
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Container>
@@ -48,7 +48,7 @@ function App() {
         </Navbar>
 
 
-        <Route path="/" exact component={Home} />
+        <Route exact path="/" component={Home} />
         <Route path="/work" component={Work} />
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resume} />
