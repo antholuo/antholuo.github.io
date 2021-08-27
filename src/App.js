@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import { Route, Link, HashRouter as Router } from 'react-router-dom'
 
 import About from './About'
+import Home from './Home'
+import Resume from './Resume'
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -59,34 +61,12 @@ function App() {
 
 export default App;
 
-const Home = () => (
-  <header className="light-header">
-    <img src={logo} className="App-logo" alt="logo" />
-    <p>
-      Website in progress :D. Expect updates regularly!
-    </p>
-    <a
-      className="App-link"
-      href="https://github.com/antholuo"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Go to my github
-    </a>
-  </header>
-);
-
 const Work = () => (
   <header className="light-header">
     <h1>page under development! Come back soon</h1>
   </header>
 )
 
-const Resume = () => (
-  <header className="light-header">
-    <h1>page under development! Come back soon</h1>
-  </header>
-)
 
 const Project = () => (
   <header className="App-header">
