@@ -32,13 +32,7 @@ function App() {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link as={Link} to="/work">Professional Experience</Nav.Link>
-                <NavDropdown title="Projects" id="collasible-nav-dropdown">
-                  <NavDropdown.Item href="projects/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="projects/3.2">Another action</NavDropdown.Item>
-                  <NavDropdown.Item href="projects/3.3">Something</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="projects">Separated link</NavDropdown.Item>
-                </NavDropdown>
+                <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
               </Nav>
               <Nav>
                 <Nav.Link as={Link} to="/about">About</Nav.Link>
@@ -53,7 +47,7 @@ function App() {
         <Route path="/work" component={Work} />
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resume} />
-        <Route path="/projects" component={Project} />
+        <Route path="/projects" component={Projects} />
       </div>
     </Router>
   );
@@ -68,8 +62,9 @@ const Work = () => (
 )
 
 
-const Project = () => (
-  <header className="App-header">
-    <h1>page under development! Come back soon</h1>
+const Projects = ({ match }) => (
+  <header className="light-header">
+    <h1>Projects page under development! Come back soon</h1>
   </header>
 )
+
