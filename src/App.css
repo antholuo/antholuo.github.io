@@ -39,9 +39,10 @@
   color: #61dafb;
 }
 
-.bgc1 {
-  background-color:powderblue;
-  color: powderblue;
+.home-splash {
+  background-image: url('./media/test_bg.jpg');
+  background-size: cover;
+  height: 100vh;
 }
 
 @keyframes App-logo-spin {
