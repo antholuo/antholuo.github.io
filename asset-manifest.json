@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.56f0c381.chunk.css",
-    "main.js": "/static/js/main.3b1d496d.chunk.js",
-    "main.js.map": "/static/js/main.3b1d496d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c0ba33a2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c0ba33a2.js.map",
-    "static/css/2.818011ed.chunk.css": "/static/css/2.818011ed.chunk.css",
-    "static/js/2.6698d3a8.chunk.js": "/static/js/2.6698d3a8.chunk.js",
-    "static/js/2.6698d3a8.chunk.js.map": "/static/js/2.6698d3a8.chunk.js.map",
-    "static/js/3.505df7ae.chunk.js": "/static/js/3.505df7ae.chunk.js",
-    "static/js/3.505df7ae.chunk.js.map": "/static/js/3.505df7ae.chunk.js.map",
+    "main.css": "/static/css/main.5fb2b93a.chunk.css",
+    "main.js": "/static/js/main.ead90d08.chunk.js",
+    "main.js.map": "/static/js/main.ead90d08.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.29e973e7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.29e973e7.js.map",
+    "static/css/2.e94fe81f.chunk.css": "/static/css/2.e94fe81f.chunk.css",
+    "static/js/2.c1c4f11c.chunk.js": "/static/js/2.c1c4f11c.chunk.js",
+    "static/js/2.c1c4f11c.chunk.js.map": "/static/js/2.c1c4f11c.chunk.js.map",
+    "static/js/3.75b634ca.chunk.js": "/static/js/3.75b634ca.chunk.js",
+    "static/js/3.75b634ca.chunk.js.map": "/static/js/3.75b634ca.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.818011ed.chunk.css.map": "/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.56f0c381.chunk.css.map": "/static/css/main.56f0c381.chunk.css.map",
-    "static/js/2.6698d3a8.chunk.js.LICENSE.txt": "/static/js/2.6698d3a8.chunk.js.LICENSE.txt",
+    "static/css/2.e94fe81f.chunk.css.map": "/static/css/2.e94fe81f.chunk.css.map",
+    "static/css/main.5fb2b93a.chunk.css.map": "/static/css/main.5fb2b93a.chunk.css.map",
+    "static/js/2.c1c4f11c.chunk.js.LICENSE.txt": "/static/js/2.c1c4f11c.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/static/media/arrow_right.f7c6ac6d.svg",
     "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
     "static/media/resume.72602120.png": "/static/media/resume.72602120.png",
     "static/media/resume.fb1dbfd0.pdf": "/static/media/resume.fb1dbfd0.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.c0ba33a2.js",
-    "static/css/2.818011ed.chunk.css",
-    "static/js/2.6698d3a8.chunk.js",
-    "static/css/main.56f0c381.chunk.css",
-    "static/js/main.3b1d496d.chunk.js"
+    "static/js/runtime-main.29e973e7.js",
+    "static/css/2.e94fe81f.chunk.css",
+    "static/js/2.c1c4f11c.chunk.js",
+    "static/css/main.5fb2b93a.chunk.css",
+    "static/js/main.ead90d08.chunk.js"
   ]
 }
