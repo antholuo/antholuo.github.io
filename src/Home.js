@@ -5,6 +5,9 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+
 <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -12,15 +15,32 @@ import 'bootstrap/dist/css/bootstrap.min.css';
     crossorigin="anonymous"
 />
 
+
+
 class Home extends React.Component {
     render() {
         return (
             <>
                 <div className="home-splash">
-                    <header className="home-splash-header">
-                        Hi! My name is Anthony Luo. <br></br>
-                        I'm an undergraduate Computer Engineering student at the University of Waterloo
-                    </header>
+                    <Container className="home-splash-header">
+                        <Row>
+                            <header>
+                                Hi! My name is Anthony Luo.
+                            </header>
+                        </Row>
+                        <Row style={{ padding: 20 }}>
+                            <header>
+                                I'm an undergraduate Computer Engineering student at the University of Waterloo. <br></br>
+                            </header>
+                        </Row>
+                        <div class="chevron-container">
+                            <div class="chevron"></div>
+                            <div class="chevron"></div>
+                            <div class="chevron"></div>
+                            <span class="chevron-text">Scroll down</span>
+                        </div>
+                    </Container>
+
                 </div>
                 <div>
                     <header className="light-header">
