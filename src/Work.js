@@ -20,25 +20,20 @@ class Work extends React.Component {
     render() {
         return (
             <Container className="Container">
-                <Row><br></br></Row>
+                <Row></Row>
                 <Row className="justify-content-sm-center">
                     <Col>
-                        <p className="work-header">Work Experience One</p>
-                    </Col>
-
-                </Row>
-                <Row>
-                    <Col>
+                        <p className="work-header">Company One</p>
                         <p className="work-info-l">
-                            Company, Location
-                            </p>
-                    </Col>
-                    <Col>
-                        <p className="work-info-r">
                             Year, Month - Year, Month
                         </p>
                     </Col>
-
+                    <Col>
+                    <p className="work-header">Position One</p>
+                    Info one
+                    </Col>
+                </Row>
+                <Row>
                 </Row>
                 <Row>
                     <Col>ESNTUIDAENSIDOE HTSDI TOEUHSDI  TSOEDITSHOEDITSAODITHSOED TSF>PT HIDOETI DOEHTSID  TSOHDITSOE DI TSOEHDI  TSHODI TS OPEDITSOD I TNS </Col>
