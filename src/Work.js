@@ -26,13 +26,10 @@ class Work extends React.Component {
                         <header className="work-header">Work Experience One</header>
                     </Col>
                     <Col>
-                        <div className="work-info-r">
                             <p className="work-info-r">
                                 Year, Month - Year, Month <br></br>
                                 Location
                             </p>
-                            screams
-                        </div>
                     </Col>
                 </Row>
                 <Row>
