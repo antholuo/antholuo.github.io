@@ -28,7 +28,7 @@ function App() {
   return (
     <Router basename='/'>
       <div className="App">
-        <Navbar bg="light" sticky="top">
+        <Navbar bg="light">
           <Container>
             <Navbar.Brand as={Link} to="/">Anthony Luo</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
