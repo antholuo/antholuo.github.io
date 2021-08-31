@@ -17,7 +17,10 @@ class Home extends React.Component {
         return (
             <>
                 <div className="home-splash">
-                    SOMETHING SOMETHING HERE
+                    <header className="home-splash-header">
+                        Hi! My name is Anthony Luo. <br></br>
+                        I'm an undergraduate Computer Engineering student at the University of Waterloo
+                    </header>
                 </div>
                 <div>
                     <header className="light-header">
