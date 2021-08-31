@@ -5,9 +5,12 @@ import { Route, Link, HashRouter as Router } from 'react-router-dom'
 import About from './About'
 import Home from './Home'
 import Resume from './Resume'
+import Work from './Work'
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'mdbreact/dist/css/mdb.css';
+
 
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
@@ -54,13 +57,6 @@ function App() {
 }
 
 export default App;
-
-const Work = () => (
-  <header className="light-header">
-    <h1>page under development! Come back soon</h1>
-  </header>
-)
-
 
 const Projects = ({ match }) => (
   <header className="light-header">

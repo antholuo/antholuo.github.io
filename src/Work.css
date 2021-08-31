@@ -1,0 +1,14 @@
+.work-info-r {
+    text-align: right;
+    color:dimgrey;
+  }
+
+.work-header{
+    background-color:whitesmoke;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+    color: black;
+    border-left: thick solid powderblue;
+}

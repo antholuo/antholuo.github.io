@@ -16,9 +16,12 @@ class Home extends React.Component {
     render() {
         return (
         <header className="light-header">
+            <p>
+                Hi There! My name's Anthony Luo. <br></br> I'm an undergraduate Computer Engineering student at the University of Waterloo.
+            </p>
             <img src={logo} className="App-logo" alt="logo" />
             <p>
-                Website in progress :D. Expect updates regularly!
+                This site is currently in progress :D. Expect updates regularly!
             </p>
             <a
                 className="App-link"
