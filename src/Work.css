@@ -34,9 +34,9 @@
 section {
   display: flex;
   flex-direction: column;
-  margin-top: 5%;
-  margin-left: 18%;
-  margin-right: 18%;
+  margin-top: 2%;
+  margin-left: 23%;
+  margin-right: 23%;
   
 }
 
@@ -47,42 +47,44 @@ section {
 
 .work {
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
   width: 20%;
   text-align: left;
 }
 
 .description {
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
   width: 60%;
   text-align: left;
 }
 
 .work .header {
-  font-size: calc(2.75vmin);
+  font-size: 20px;
   font-weight: 600;
 }
 
 
 .description .header {
-  font-size: calc(2.5vmin);
+  font-size: 18px;
   font-weight: 600;
 }
 
 p {
-  font-size: 2.25vmin;
+  font-size: 16px;
 }
 
 .title {
-  font-size: 8vmin;
+  font-size: 50px;
   text-align: center;
   padding-left: 25%;
   padding-right: 25%;
 }
 
 .title p{
-  font-size: 2.75vmin;
+  margin-top: 2%;
+
+  font-size: 20px;
 }
 
 .line {
