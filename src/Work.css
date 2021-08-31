@@ -30,3 +30,45 @@
     border-left: thick solid powderblue;
     padding-bottom:0%;
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 18%;
+  padding-right: 18%;
+  
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+.work {
+  margin: auto;
+  margin-top: 10%;
+  width: 20%;
+  text-align: left;
+}
+
+.description {
+  margin: auto;
+  margin-top: 10%;
+  width: 60%;
+  text-align: left;
+}
+
+.work .header {
+  font-size: calc(2.75vmin);
+  font-weight: 600;
+}
+
+
+.description .header {
+  font-size: calc(2.5vmin);
+  font-weight: 600;
+}
+
+p {
+  font-size: 2.25vmin;
+}
