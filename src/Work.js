@@ -19,7 +19,7 @@ import Button from 'react-bootstrap/Button';
 class Work extends React.Component {
     render() {
         return (
-            <Container>
+            <Container className="Container">
                 <Row><br></br></Row>
                 <Row className="justify-content-sm-center">
                     <Col>

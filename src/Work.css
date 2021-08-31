@@ -1,3 +1,8 @@
+.Container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .work-info-r {
     text-align: right;
     color:dimgrey;
