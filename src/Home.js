@@ -28,17 +28,19 @@ class Home extends React.Component {
                                 Hi! My name is Anthony Luo.
                             </header>
                         </Row>
-                        <Row style={{ padding: 20 }}>
+                        <Row style={{ padding: 40 }}>
                             <header>
                                 I'm an undergraduate Computer Engineering student at the University of Waterloo. <br></br>
                             </header>
                         </Row>
-                        <div class="chevron-container">
-                            <div class="chevron"></div>
-                            <div class="chevron"></div>
-                            <div class="chevron"></div>
-                            <span class="chevron-text">Scroll down</span>
-                        </div>
+                        <Row>
+                            <div class="chevron-container">
+                                <div class="chevron"></div>
+                                <div class="chevron"></div>
+                                <div class="chevron"></div>
+                                <span class="chevron-text">Scroll down</span>
+                            </div>
+                        </Row>
                     </Container>
 
                 </div>
