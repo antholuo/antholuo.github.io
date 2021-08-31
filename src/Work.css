@@ -34,8 +34,9 @@
 section {
   display: flex;
   flex-direction: column;
-  padding-left: 18%;
-  padding-right: 18%;
+  margin-top: 5%;
+  margin-left: 18%;
+  margin-right: 18%;
   
 }
 
@@ -71,4 +72,18 @@ section {
 
 p {
   font-size: 2.25vmin;
+}
+
+.title {
+  font-size: 8vmin;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.title p{
+  font-size: 2.75vmin;
+}
+
+.line {
 }

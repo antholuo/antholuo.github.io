@@ -45,7 +45,18 @@ class Work extends React.Component {
     render(){
         return (
             <section>
+                <div class = "title">
+                    Experiences
+                    <p> aljkhsdfgashgjdfchkasd asdhgfasghdfkc aghdfas ghafgd kgh asfdghkfas a kjysdghakjdh anhdfahjndfhjad adfgh</p>
+
+                </div>
+
+                <div class = "line">                     
+                    <hr></hr>
+                </div>
+
                 <div class = "box">
+
                     <div class = "work">
                         <p class = "header">Startselect | Online Prepaid Services</p>
                         <p> May 2016 - current </p>
