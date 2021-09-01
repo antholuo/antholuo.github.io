@@ -42,53 +42,53 @@ class Work extends React.Component {
         )
     }*/
 
-    render(){
+    render() {
         return (
             <Container>
-                <div class = "title">
-                    <p class = "header" >Experiences </p>
-                    <hr class = "title-header"></hr>
+                <div class="title">
+                    <p class="header" >Experiences </p>
+                    <hr class="title-header"></hr>
 
-                    <p class = "text"> aljkhsdfgashgjdfchkasd asdhgfasghdfkc aghdfas ghafgd kgh asfdghkf asd qada asd jaghmdfahk kahjgd kjahfgdkjas fa</p>
+                    <p class="text"> aljkhsdfgashgjdfchkasd asdhgfasghdfkc aghdfas ghafgd kgh asfdghkf asd qada asd jaghmdfahk kahjgd kjahfgdkjas fa</p>
 
                 </div>
 
-                <div class = "box">
+                <div class="box">
 
-                    <div class = "work">
-                        <p class = "header">Startselect | Online Prepaid Services</p>
-                        <hr class = "body-header"></hr>
+                    <div class="work">
+                        <p class="header">Startselect | Online Prepaid Services</p>
+                        <hr class="body-header"></hr>
 
                         <p> May 2016 - current </p>
                     </div>
-                    <div class = "description">
-                        <p class = "header"> Fulltime - Senior Web Developer </p>
+                    <div class="description">
+                        <p class="header"> Fulltime - Senior Web Developer </p>
                         <p> Working as a Senior Devloper on a large european based webshop for digital games and gifrcards. The application is Laravel based and as a team we are working in a fully scrum way.</p>
                         <a href="url">Eindhoven |  http://startselect.com</a>
                     </div>
                 </div>
-                <div class = "box">
-                    <div class = "work"> 
-                        <p class = "header">The Secret Lab</p>
-                        <hr class = "body-header"></hr>
+                <div class="box">
+                    <div class="work">
+                        <p class="header">The Secret Lab</p>
+                        <hr class="body-header"></hr>
 
                         <p> May 2016 - current </p>
                     </div>
-                    <div class = "description">
-                        <p class = "header">Fulltime - Senior Web Developer</p>
+                    <div class="description">
+                        <p class="header">Fulltime - Senior Web Developer</p>
                         <p>As a senior at The Secret Lab I work on projects like Kaartjes.nl, Clay.com and more. Using frameworks and technologies such as Laravel, Wordpress, Drupal 8 and ElasticSearch. I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.</p>
                         <a href="url">Eindhoven |  http://startselect.com</a>
                     </div>
                 </div>
-                <div class = "box">
-                <div class = "work"> 
-                        <p class = "header">The Secret Lab</p>
-                        <hr class = "body-header"></hr>
+                <div class="box">
+                    <div class="work">
+                        <p class="header">The Secret Lab</p>
+                        <hr class="body-header"></hr>
 
                         <p> May 2016 - current </p>
                     </div>
-                    <div class = "description">
-                        <p class = "header">Fulltime - Senior Web Developer</p>
+                    <div class="description">
+                        <p class="header">Fulltime - Senior Web Developer</p>
                         <p>As a senior at The Secret Lab I work on projects like Kaartjes.nl, Clay.com and more. Using frameworks and technologies such as Laravel, Wordpress, Drupal 8 and ElasticSearch. I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.</p>
                         <a href="url">Eindhoven |  http://startselect.com</a>
                     </div>
