@@ -16,7 +16,7 @@ import Button from 'react-bootstrap/Button';
     crossorigin="anonymous"
 />  */}
 
-<link rel = "stylesheet" href = "Work.css"/>
+<link rel="stylesheet" href="Work.css" />
 
 class Work extends React.Component {
     /*render() {
@@ -48,51 +48,109 @@ class Work extends React.Component {
         return (
             <container>
                 <div class="title">
-                    <p class="header" >Experiences </p>
+                    <p class="header" >Work Experience</p>
                     <hr class="title-line"></hr>
 
-                    <p class="text"> aljkhsdfgashgjdfchkasd asdhgfasghdfkc aghdfas ghafgd kgh asfdghkf asd qada asd jaghmdfahk kahjgd kjahfgdkjas fa</p>
+                    <p class="text">Welcome! Feel free to take a look around. For projects and tabs, please use the navbar at the top of this page.</p>
 
                 </div>
 
                 <div class="box">
 
                     <div class="work">
-                        <p class="header">Startselect | Online Prepaid Services</p>
+                        <p class="header">Ciena Canada</p>
                         <hr class="body-line"></hr>
 
-                        <p> May 2016 - current </p>
+                        <p> September 2021 - December 2021 </p>
                     </div>
                     <div class="description">
-                        <p class="header"> Fulltime - Senior Web Developer </p>
-                        <p> Working as a Senior Devloper on a large european based webshop for digital games and gifrcards. The application is Laravel based and as a team we are working in a fully scrum way.</p>
+                        <p class="header"> Co-op: ASIC/FPGA Development </p>
+                        <p>
+                            I am currently working on the design and development of Ciena's next-generation Optical ASIC!
+                        </p>
+                        <a href="https://www.ciena.ca/">Ciena Canada |  https://www.ciena.ca/</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="work">
+                        <p class="header">Ciena Canada</p>
+                        <hr class="body-line"></hr>
+
+                        <p> January 2021 - April 2021 </p>
+                    </div>
+                    <div class="description">
+                        <p class="header"> Co-op: Digital ASIC/FPGA Verification </p>
+                        <p>
+                            During my first four month co-op term with Ciena, I worked with the optical ASIC development and verification teams to provide design and verification tools. Some highlights include: <br></br>
+                            <ul>
+                                <li>Writing development tools in System Verilog.</li>
+                                <li>Creating wrappers, design checks, and automation scripts in Python.</li>
+                                <li>Integrating design checks into Jenkins builds using Bash and Makefiles.</li>
+                                <li>Worked within a Fedora Linux environment.</li>
+                                <li>Used clearcase to version control, checkin, checkout, and submit code.</li>
+                                <li>Aided in the transition from clearcase to git.</li>
+                            </ul>
+                        </p>
+                        <a href="https://www.ciena.ca/">Ciena Canada |  https://www.ciena.ca/</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="work">
+                        <p class="header">Nokia</p>
+                        <hr class="body-line"></hr>
+
+                        <p> May 2019 - August 2019 </p>
+                    </div>
+                    <div class="description">
+                        <p class="header">Co-op: Software Engineering</p>
+                        <p>As part of the Nokia Convergent Charging team, I wrote tools for internal testing as well as features for our client 5g servers.</p>
+                        <ul>
+                            <li>Developed and operated within a RedHat Enterprise Linux environment.</li>
+                            <li>Wrote tools and features using Java in Eclipse.</li>
+                            <li>Submitted and debugged features using Python and Bash with git as a Version Control System.</li>
+                            <li>Worked independently to solve problems and learn the code repository.</li>
+                            <li>Developed strong working relationships with team members through an Agile team approach.</li>
+                        </ul>
                         <a href="url">Eindhoven |  http://startselect.com</a>
                     </div>
                 </div>
                 <div class="box">
                     <div class="work">
-                        <p class="header">The Secret Lab</p>
+                        <p class="header">2381 & 4862 Robotics</p>
                         <hr class="body-line"></hr>
 
-                        <p> May 2016 - current </p>
+                        <p> March 2019 - May 2021 </p>
                     </div>
                     <div class="description">
-                        <p class="header">Fulltime - Senior Web Developer</p>
-                        <p>As a senior at The Secret Lab I work on projects like Kaartjes.nl, Clay.com and more. Using frameworks and technologies such as Laravel, Wordpress, Drupal 8 and ElasticSearch. I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.</p>
-                        <a href="url">Eindhoven |  http://startselect.com</a>
+                        <p class="header">Part Time: Robotics Team Mentor</p>
+                        <p>
+                            After the end of my competitive Robotics career, I have been working closely with the teams at 2381 Kernel Bye and 4862 Coltenoids as a mentor and teacher for newer students. Some of my responsibilities included:
+                            <ul>
+                                <li>Teaching sfotware principles such as git, PID's, or Localization to incoming students.</li>
+                                <li>Teaching hardware principles such as CAD and safe equipment operation to incoming and younger students.</li>
+                                <li>Working closely with the team to help them develop and grow ideas on their own.</li>
+                                <li>Help team members reflect on their performance at competitions and find ways towards improving the whole team.</li>
+                                <li>Organize and schedule events and travel for the team.</li>
+                            </ul>
+                        </p>
+                        <a href="https://2381.ca/">2381 Robotics |  https://2381.ca/</a>
                     </div>
                 </div>
                 <div class="box">
                     <div class="work">
-                        <p class="header">The Secret Lab</p>
+                        <p class="header">City of Ottawa</p>
                         <hr class="body-line"></hr>
 
-                        <p> May 2016 - current </p>
+                        <p> January 2016 - August 2021 </p>
                     </div>
                     <div class="description">
-                        <p class="header">Fulltime - Senior Web Developer</p>
-                        <p>As a senior at The Secret Lab I work on projects like Kaartjes.nl, Clay.com and more. Using frameworks and technologies such as Laravel, Wordpress, Drupal 8 and ElasticSearch. I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.</p>
-                        <a href="url">Eindhoven |  http://startselect.com</a>
+                        <p class="header">Part Time: Specialist Sports Instructor</p>
+                        <p>Since starting my volunteering in 2014, I have actively been a part of leading sports programs at various City of Ottawa facilities.
+                            Throughout my time, I have worked with clients of all ages to help them reach their goals in various disciplines such as Table Tennis, Badminton, Rock Climbing, and Swimming!
+                            <br></br>
+                            I have learned a lot about building strong working relationships not only with clients, but also with co-workers and other maintenance and management staff in order to provide the best customer experience for our clients.
+                        </p>
+                        <a href="https://ottawa.ca/en">City of Ottawa |  https://ottawa.ca/en</a>
                     </div>
                 </div>
             </container>
