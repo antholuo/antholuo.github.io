@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './App.css';
+import './Work.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import resume from './media/resume.png';
@@ -21,14 +21,14 @@ import Button from 'react-bootstrap/Button';
 class About extends React.Component {
     render() {
         return (
-            <Container fluid="md">
+            <Container fluid="md" style={{padding: 10}}>
                 <Col>
                     <Row><br></br></Row>
                     <Row>
                         <img src={resume}/>
                     </Row>
                 </Col>
-                <Button href={resume_pdf} download="resume_Anthony_Luo.pdf" variant="outline-secondary">Download</Button>
+                <Button href={resume_pdf} download="resume_Anthony_Luo.pdf" variant="outline-primary">Download</Button>
                 <Row><br></br></Row>
                 <Row><br></br></Row>
             </Container>
