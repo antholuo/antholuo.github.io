@@ -62,7 +62,7 @@ class Home extends React.Component {
                                 </Col>
                                 <Col md={2}><Button variant="outline-dark" size="" as={Link} to="/resume">Resume</Button>
                                 </Col>
-                                
+
                             </Row>
                         </Container>
                         <a

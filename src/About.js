@@ -55,7 +55,17 @@ class About extends React.Component {
             </Row>
           </Container>
         </div>
-
+        <div>
+          <section class="about-hexagon-gallery">
+            <div class="about-hex">
+              <p>PROJECTS</p>
+            </div>
+            <div class="about-hex"></div>
+            <div class="about-hex"></div>
+            <div class="about-hex"></div>
+            <div class="about-hex"></div>
+          </section>
+        </div>
       </>
     )
   }
