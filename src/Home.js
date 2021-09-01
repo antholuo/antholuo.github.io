@@ -7,6 +7,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
+
+
+import { Route, Link, HashRouter as Router } from 'react-router-dom'
 
 <link
     rel="stylesheet"
@@ -46,13 +51,21 @@ class Home extends React.Component {
                 </div>
                 <div>
                     <header className="light-header">
-                        <p>
-                            Hi There! My name's Anthony Luo. <br></br> I'm an undergraduate Computer Engineering student at the University of Waterloo.
-                        </p>
                         <img src={logo} className="App-logo" alt="logo" />
                         <p>
-                            This site is currently in progress :D. Expect updates regularly!
+                            This site is currently in progress :D. Expect updates regularly! Currenty functioning:
                         </p>
+                        <Container>
+                            <Row>
+                                <Col md={4}><br></br></Col>
+                                <Col md={2}><Button as={Link} to="/work">Professional Experience</Button>
+                                </Col>
+                                <Col md={2}><Button as={Link} to="/resume">Resume</Button>
+                                </Col>
+                                
+                            </Row>
+                        </Container>
+                        
                         <a
                             className="App-link"
                             href="https://github.com/antholuo"
