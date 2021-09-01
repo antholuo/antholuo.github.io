@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+/* .Container {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 2%;
+} */
+
+.work-info-r {
+    text-align: right;
+    color:dimgrey;
+    padding-right: 5%
+  }
+
+.work-info-l {
+    text-align: left;
+    color:dimgrey;
+    padding-left: 5%;
+  }
+
+
+.work-header{
+    background-color:whitesmoke;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(2vmin);
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    border-left: thick solid powderblue;
+    padding-bottom:0%;
+}
+
+container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+.work {
+  margin: auto;
+  text-align: left;
+  color: dimgray;
+
+}
+
+.work p {
+  font-size: 15px;
+}
+
+.description {
+  margin: auto;
+  text-align: left;
+  color: dimgray;
+
+}
+
+.work .header {
+  font-size: 20px;
+  font-weight: 500;
+  color: dimgray;
+
+}
+
+
+.description .header {
+  background-image: linear-gradient(to right, whitesmoke, white, white, white);
+  padding: 1% 1.5%;
+
+  border-left: thick solid powderblue;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 16px;
+}
+
+.title .header {
+  margin-top: 2%;
+  font-size: 50px;
+  color: dimgray;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title .text{
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: dimgray;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.title-line{
+  margin-left: 45%;
+  margin-right: 45%;
+  border: none;
+  height: 5px !important;
+  background: powderblue;
+  opacity: 100%;
+
+}
+
+.body-line {
+  border: none;
+  margin-bottom: 10px;
+  background: powderblue;
+  opacity: 100%;
+}
+
+a:link{
+  color: #45bfb1;
+}
+
+a:visited {
+  color: #35b6bd;
+}
+
+a:hover {
+  color:dimgray;
+}
+
+@media (max-width: 1000px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .work {
+    width: 80%;
+    margin-top: 6%;
+  }
+
+  .description {
+    width: 80%;
+    margin-bottom: 6%;
+  }
+
+  container {
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+  }
+
+  .body-line {
+    margin-right: 0%;
+    height: 1px !important;
+    margin-top: -8px;
+
+
+  }
+}
+
+@media (min-width: 1001px) {
+  .box {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .work {
+    width: 20%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+
+  .description {
+    width: 60%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+
+  container {
+    margin-left: 23% !important;
+    margin-right: 23% !important;
+  }
+
+  .body-line {
+    margin-right: 70%;
+    height: 2px !important;
+    margin-top: -3px;
+  }
+}
