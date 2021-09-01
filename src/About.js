@@ -21,7 +21,13 @@ class About extends React.Component {
                 <Image src={img} roundedCircle fluid className="pfp-image" />
               </Col>
               <Col xs={12} md={9}>
-                <p className="info-header">I'm a Computer Engineering undergraduate student at the University of Waterloo, but you already knew that, didn't you? <br></br>
+                <p className="info-header">I'm a Computer Engineering undergraduate student at the <a
+                  href="https://uwaterloo.ca/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  University of Waterloo
+                </a>, but you already knew that, didn't you? <br></br>
                   I work with embedded systems and firmware, as well as with FPGA's and ASIC's. I also happen to love table tennis and camping!</p>
               </Col>
             </Row>
@@ -56,14 +62,18 @@ class About extends React.Component {
           </Container>
         </div>
         <div>
-          <section class="about-hexagon-gallery">
-            <div class="about-hex">
-              <p>PROJECTS</p>
+          <section className="about-hexagon-gallery">
+            <div className="about-hex">
+              <p>Projects</p>
             </div>
-            <div class="about-hex"></div>
-            <div class="about-hex"></div>
-            <div class="about-hex"></div>
-            <div class="about-hex"></div>
+            <div className="about-hex">
+              <p>Work Experience</p>
+            </div>
+            <div className="about-hex">
+              <p>Resume</p>
+            </div>
+            <div className="about-hex"></div>
+            <div className="about-hex"></div>
           </section>
         </div>
       </>
