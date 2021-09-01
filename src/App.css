@@ -155,3 +155,42 @@
     transform: rotate(360deg);
   }
 }
+
+/*
+* About Section
+*/
+.about-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(209, 250, 250);
+}
+
+.about-title .header {
+  font-size: 60px;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+  
+.about-title .text{
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: black;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+  
+.about-title-header{
+  margin-left: 45%;
+  margin-right: 45%;
+  border: none;
+  height: 5px !important;
+  background: powderblue;
+  opacity: 100%;
+}

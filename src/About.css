@@ -1,0 +1,34 @@
+.about-title {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: powderblue;
+}
+
+.about-title .header {
+  font-size: 50px;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+}
+  
+.about-title .text{
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: black;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+  
+.about-title-header{
+  margin-left: 45%;
+  margin-right: 45%;
+  border: none;
+  height: 5px !important;
+  background: powderblue;
+  opacity: 100%;
+}
