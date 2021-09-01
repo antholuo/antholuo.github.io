@@ -44,7 +44,7 @@ class Work extends React.Component {
 
     render(){
         return (
-            <container>
+            <Container>
                 <div class = "title">
                     <p class = "header" >Experiences </p>
                     <hr class = "title-header"></hr>
@@ -93,7 +93,7 @@ class Work extends React.Component {
                         <a href="url">Eindhoven |  http://startselect.com</a>
                     </div>
                 </div>
-            </container>
+            </Container>
         )
     }
 }
