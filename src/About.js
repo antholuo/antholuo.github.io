@@ -25,6 +25,26 @@ class About extends React.Component {
                 I work with embedded systems and firmware, as well as with FPGA's and ASIC's. I also happen to love table tennis and camping!</p>
               </Col>
             </Row>
+            <Row>
+              <Col>
+                <p>Altium & Kicad</p>
+              </Col>
+              <Col>
+                <p>Questa Formal</p>
+              </Col>
+              <Col>
+                <p>System Verilog & VHDL</p>
+              </Col>
+              <Col>
+                <p>C & C++</p>
+              </Col>
+              <Col>
+                <p>Python & Java</p>
+              </Col>
+              <Col>
+                <p>Tensorflow & SciKit</p>
+              </Col>
+            </Row>
           </Container>
         </div>
       </>
