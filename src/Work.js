@@ -44,10 +44,10 @@ class Work extends React.Component {
 
     render() {
         return (
-            <Container>
+            <container>
                 <div class="title">
                     <p class="header" >Experiences </p>
-                    <hr class="title-header"></hr>
+                    <hr class="title-line"></hr>
 
                     <p class="text"> aljkhsdfgashgjdfchkasd asdhgfasghdfkc aghdfas ghafgd kgh asfdghkf asd qada asd jaghmdfahk kahjgd kjahfgdkjas fa</p>
 
@@ -57,7 +57,7 @@ class Work extends React.Component {
 
                     <div class="work">
                         <p class="header">Startselect | Online Prepaid Services</p>
-                        <hr class="body-header"></hr>
+                        <hr class="body-line"></hr>
 
                         <p> May 2016 - current </p>
                     </div>
@@ -70,7 +70,7 @@ class Work extends React.Component {
                 <div class="box">
                     <div class="work">
                         <p class="header">The Secret Lab</p>
-                        <hr class="body-header"></hr>
+                        <hr class="body-line"></hr>
 
                         <p> May 2016 - current </p>
                     </div>
@@ -83,7 +83,7 @@ class Work extends React.Component {
                 <div class="box">
                     <div class="work">
                         <p class="header">The Secret Lab</p>
-                        <hr class="body-header"></hr>
+                        <hr class="body-line"></hr>
 
                         <p> May 2016 - current </p>
                     </div>
@@ -93,7 +93,7 @@ class Work extends React.Component {
                         <a href="url">Eindhoven |  http://startselect.com</a>
                     </div>
                 </div>
-            </Container>
+            </container>
         )
     }
 }
