@@ -1,4 +1,5 @@
 import React from 'react'
+import './About.css'
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -18,11 +19,11 @@ class About extends React.Component {
             </Row>
             <Row style={{ padding: 50 }}>
               <Col xs={12} md={3}>
-                <Image src={img} roundedCircle fluid className="pfp-image"/>
+                <Image src={img} roundedCircle fluid className="pfp-image" />
               </Col>
               <Col xs={12} md={9}>
                 <p className="info-header">I'm a Computer Engineering undergraduate student at the University of Waterloo, but you already knew that, didn't you? <br></br>
-                I work with embedded systems and firmware, as well as with FPGA's and ASIC's. I also happen to love table tennis and camping!</p>
+                  I work with embedded systems and firmware, as well as with FPGA's and ASIC's. I also happen to love table tennis and camping!</p>
               </Col>
             </Row>
             <Row>
@@ -58,6 +59,47 @@ class About extends React.Component {
         <div className="education">
           EDUCAYSHEN
         </div>
+        <Container style={{padding: 80}}>
+          <div class="hexaline">
+            <div class="hexa empty"></div>
+            <div class="hexa">
+              <span class="hexa_text">Toutes nos Créations</span>
+            </div>
+          </div>
+          <div class="hexaline">
+            <div class="hexa">
+              <span class="hexa_text">Aller sur le Forum</span>
+            </div>
+            <div class="hexa empty"></div>
+            <div class="hexa">
+              <span class="hexa_text">Notre Philosophie</span>
+            </div>
+          </div>
+          <div class="hexaline">
+            <div class="hexa">
+              <span class="hexa_text">Inscription<br />Connexion</span>
+            </div>
+            <div class="hexa">
+              <span class="hexa_text">Equipe d'HexaDev</span>
+            </div>
+          </div>
+          <div class="hexaline">
+            <div class="hexa empty"></div>
+            <div class="hexa empty"></div>
+            <div class="hexa"></div>
+          </div>
+          <div class="hexaline">
+            <div class="hexa">
+              <span class="hexa_text">Amis et Partenaires</span>
+            </div>
+            <div class="hexa empty"></div>
+            <div class="hexa empty"></div>
+            <div class="hexa">
+              <span class="hexa_text">Nous<br />Soutenir</span>
+            </div>
+          </div>
+        </Container>
+
       </>
     )
   }
