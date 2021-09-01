@@ -46,47 +46,51 @@ class Work extends React.Component {
         return (
             <section>
                 <div class = "title">
-                    Experiences
-                    <p> aljkhsdfgashgjdfchkasd asdhgfasghdfkc aghdfas ghafgd kgh asfdghkfas a kjysdghakjdh anhdfahjndfhjad adfgh</p>
+                    <p class = "header" >Experiences </p>
+                    <hr class = "title-header"></hr>
 
-                </div>
+                    <p class = "text"> aljkhsdfgashgjdfchkasd asdhgfasghdfkc aghdfas ghafgd kgh asfdghkf asd qada asd jaghmdfahk kahjgd kjahfgdkjas fa</p>
 
-                <div class = "line">                     
-                    <hr></hr>
                 </div>
 
                 <div class = "box">
 
                     <div class = "work">
                         <p class = "header">Startselect | Online Prepaid Services</p>
+                        <hr class = "body-header"></hr>
+
                         <p> May 2016 - current </p>
                     </div>
                     <div class = "description">
                         <p class = "header"> Fulltime - Senior Web Developer </p>
                         <p> Working as a Senior Devloper on a large european based webshop for digital games and gifrcards. The application is Laravel based and as a team we are working in a fully scrum way.</p>
-                        <p>  Eindhoven |  http://startselect.com </p>
+                        <a href="url">Eindhoven |  http://startselect.com</a>
                     </div>
                 </div>
                 <div class = "box">
                     <div class = "work"> 
                         <p class = "header">The Secret Lab</p>
+                        <hr class = "body-header"></hr>
+
                         <p> May 2016 - current </p>
                     </div>
                     <div class = "description">
                         <p class = "header">Fulltime - Senior Web Developer</p>
                         <p>As a senior at The Secret Lab I work on projects like Kaartjes.nl, Clay.com and more. Using frameworks and technologies such as Laravel, Wordpress, Drupal 8 and ElasticSearch. I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.</p>
-                        <p> Amsterdam |  http://thesecretlab.nl</p>
+                        <a href="url">Eindhoven |  http://startselect.com</a>
                     </div>
                 </div>
                 <div class = "box">
                 <div class = "work"> 
                         <p class = "header">The Secret Lab</p>
+                        <hr class = "body-header"></hr>
+
                         <p> May 2016 - current </p>
                     </div>
                     <div class = "description">
                         <p class = "header">Fulltime - Senior Web Developer</p>
                         <p>As a senior at The Secret Lab I work on projects like Kaartjes.nl, Clay.com and more. Using frameworks and technologies such as Laravel, Wordpress, Drupal 8 and ElasticSearch. I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.</p>
-                        <p> Amsterdam |  http://thesecretlab.nl</p>
+                        <a href="url">Eindhoven |  http://startselect.com</a>
                     </div>
                 </div>
             </section>

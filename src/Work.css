@@ -35,14 +35,16 @@ section {
   display: flex;
   flex-direction: column;
   margin-top: 2%;
-  margin-left: 23%;
-  margin-right: 23%;
+  padding-left: 23%;
+  padding-right: 23%;
+
   
 }
 
 .box {
   display: flex;
   flex-direction: row;
+
 }
 
 .work {
@@ -50,6 +52,8 @@ section {
   margin-top: 5%;
   width: 20%;
   text-align: left;
+  color: dimgray;
+
 }
 
 .description {
@@ -57,35 +61,73 @@ section {
   margin-top: 5%;
   width: 60%;
   text-align: left;
+  color: dimgray;
+
 }
 
 .work .header {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
+  color: dimgray;
+
 }
 
 
 .description .header {
+  background-image: linear-gradient(to right, whitesmoke, white, white, white);
+  padding: 1% 1.5%;
+
+  border-left: thick solid powderblue;
+
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 p {
   font-size: 16px;
 }
 
-.title {
+.title .header {
   font-size: 50px;
-  text-align: center;
-  padding-left: 25%;
-  padding-right: 25%;
+  color: dimgray;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.title p{
-  margin-top: 2%;
-
+.title .text{
   font-size: 20px;
+  color: dimgray;
+  margin-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.line {
+.title-header{
+  margin-left: 45%;
+  margin-right: 45%;
+  border: none;
+  height: 100px;
+  background: powderblue;
+  opacity: 100%;
+
+}
+
+.body-header {
+  margin-right: 70%;
+  border: none;
+  background: powderblue;
+
+  height: 10px;
+}
+
+a:link{
+  color: #45bfb1;
+}
+
+a:visited {
+  color: #35b6bd;
+}
+
+a:hover {
+  color:dimgray;
 }
