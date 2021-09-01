@@ -160,11 +160,13 @@
 * About Section
 */
 .about-title {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color:rgb(209, 250, 250);
+  padding-bottom: 10%;
 }
 
 .about-title .header {
@@ -205,65 +207,3 @@
 }
 
 
-
-/*
-* HEXAMAGONS
-*/
-
-.hexa:hover {
-  background: #34495e;
-  color: #ecf0f1;
-}
-.hexa:hover:before {
-  border-bottom: 34.64101615px solid #34495e;
-}
-.hexa:hover:after {
-  border-top: 34.64101615px solid #34495e;
-}
-.hexa {
-  color: #7f8c8d;
-  position: relative;
-  display: inline-block;
-  margin: 35px auto;
-  height: 69.2820323px;
-  width: 120px;
-  background: #2c3e50;
-  transition: all 0.5s;
-}
-.hexa.empty {
-  background: transparent;
-}
-.hexa_text {
-  position: absolute;
-  width: 120px;
-  height: 69.2820323px;
-  top: 0px;
-  left: 0px;
-  font-family: "Segoe UI";
-  font-size: 18px;
-  text-align: center;
-  line-height: 33px;
-}
-.hexa:not(.empty):before,
-.hexa:not(.empty):after {
-  position: absolute;
-  content: "";
-  width: 0px;
-  left: 0px;
-  transition: all 0.5s;
-  border-left: 60px solid transparent;
-  border-right: 60px solid transparent;
-}
-.hexa:before {
-  top: -33.64101615px;
-  border-top: 0px solid transparent;
-  border-bottom: 34.64101615px solid #2c3e50;
-}
-.hexa:after {
-  bottom: -33.44101615px;
-  border-bottom: 0px solid transparent;
-  border-top: 34.64101615px solid #2c3e50;
-}
-.hexaline {
-  margin-top: -37px;
-}

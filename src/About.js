@@ -55,49 +55,6 @@ class About extends React.Component {
             </Row>
           </Container>
         </div>
-        <div className="education">
-          EDUCAYSHEN
-        </div>
-        <Container style={{padding: 80}}>
-          <div class="hexaline">
-            <div class="hexa empty"></div>
-            <div class="hexa">
-              <span class="hexa_text">Toutes nos Créations</span>
-            </div>
-          </div>
-          <div class="hexaline">
-            <div class="hexa">
-              <span class="hexa_text">Aller sur le Forum</span>
-            </div>
-            <div class="hexa empty"></div>
-            <div class="hexa">
-              <span class="hexa_text">Notre Philosophie</span>
-            </div>
-          </div>
-          <div class="hexaline">
-            <div class="hexa">
-              <span class="hexa_text">Inscription<br />Connexion</span>
-            </div>
-            <div class="hexa">
-              <span class="hexa_text">Equipe d'HexaDev</span>
-            </div>
-          </div>
-          <div class="hexaline">
-            <div class="hexa empty"></div>
-            <div class="hexa empty"></div>
-            <div class="hexa"></div>
-          </div>
-          <div class="hexaline">
-            <div class="hexa">
-              <span class="hexa_text">Amis et Partenaires</span>
-            </div>
-            <div class="hexa empty"></div>
-            <div class="hexa empty"></div>
-            <div class="hexa">
-              <span class="hexa_text">Nous<br />Soutenir</span>
-            </div>
-          </div>
-        </Container>
 
       </>
     )
