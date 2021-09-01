@@ -16,7 +16,7 @@ import Button from 'react-bootstrap/Button';
     crossorigin="anonymous"
 />  */}
 
-<link rel = "stylesheet" href = "Work.css"/>
+<link rel="stylesheet" href="Work.css" />
 
 class Work extends React.Component {
     /*render() {
@@ -125,13 +125,13 @@ class Work extends React.Component {
                         <p class="header">Part Time: Robotics Team Mentor</p>
                         <p>
                             After the end of my competitive Robotics career, I have been working closely with the teams at 2381 Kernel Bye and 4862 Coltenoids as a mentor and teacher for newer students. Some of my responsibilities included:
-                           <ul>
-                               <li>Teaching sfotware principles such as git, PID's, or Localization to incoming students.</li>
-                               <li>Teaching hardware principles such as CAD and safe equipment operation to incoming and younger students.</li>
-                               <li>Working closely with the team to help them develop and grow ideas on their own.</li>
-                               <li>Help team members reflect on their performance at competitions and find ways towards improving the whole team.</li>
-                               <li>Organize and schedule events and travel for the team.</li>
-                           </ul>
+                            <ul>
+                                <li>Teaching sfotware principles such as git, PID's, or Localization to incoming students.</li>
+                                <li>Teaching hardware principles such as CAD and safe equipment operation to incoming and younger students.</li>
+                                <li>Working closely with the team to help them develop and grow ideas on their own.</li>
+                                <li>Help team members reflect on their performance at competitions and find ways towards improving the whole team.</li>
+                                <li>Organize and schedule events and travel for the team.</li>
+                            </ul>
                         </p>
                         <a href="https://2381.ca/">2381 Robotics |  https://2381.ca/</a>
                     </div>
