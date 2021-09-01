@@ -49,16 +49,23 @@ section {
 
 .work {
   margin: auto;
-  margin-top: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
   width: 20%;
   text-align: left;
   color: dimgray;
 
 }
 
+.work p {
+  font-size: 15px;
+}
+
 .description {
   margin: auto;
-  margin-top: 5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+
   width: 60%;
   text-align: left;
   color: dimgray;
@@ -88,6 +95,7 @@ p {
 }
 
 .title .header {
+  margin-top: 2%;
   font-size: 50px;
   color: dimgray;
   margin-right: auto;
@@ -95,8 +103,10 @@ p {
 }
 
 .title .text{
-  font-size: 20px;
+  font-size: 18px;
+  letter-spacing: 0.03em;
   color: dimgray;
+  margin-top: 2%;
   margin-bottom: 5%;
   padding-left: 5%;
   padding-right: 5%;
@@ -106,7 +116,7 @@ p {
   margin-left: 45%;
   margin-right: 45%;
   border: none;
-  height: 100px;
+  height: 5px !important;
   background: powderblue;
   opacity: 100%;
 
@@ -115,9 +125,11 @@ p {
 .body-header {
   margin-right: 70%;
   border: none;
+  margin-top: -3px;
+  margin-bottom: 10px;
   background: powderblue;
-
-  height: 10px;
+  height: 2px !important;
+  opacity: 100%;
 }
 
 a:link{
