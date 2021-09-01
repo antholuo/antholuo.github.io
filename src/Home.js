@@ -75,6 +75,19 @@ class Home extends React.Component {
                         </a>
                     </header>
                 </div>
+                <section>
+                    <div className="projects-hexagon-gallery">
+                        <div className="projects-hex"></div>
+                        <div className="projects-hex"></div>
+                        <div className="projects-hex"></div>
+                        <div className="projects-hex"></div>
+                        <div className="projects-hex"></div>
+                        <div className="projects-hex"></div>
+                        <div className="projects-hex"></div>
+                        <div className="projects-hex"></div>
+                        <div className="projects-hex"></div>
+                    </div>
+                </section>
             </>
         )
     }
