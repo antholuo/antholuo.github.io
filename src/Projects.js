@@ -94,81 +94,106 @@ class Projects extends React.Component {
                 </section> 
     }*/
 
+    // hexagon is a border/outline thing and there's an image inside with a project title
+// and then on hover the image darkens and the title slides up and away and info about the project slides up
+// and then on click the bg image turns grey or wtv and the outline of the hexagon slowly zooms outwards to fill the entire screen with grey
+// and then you arrive at your new project page !
     render() {
         return (
             <section class="projects-hexagon-gallery">
                 <div class="projects-hex">
                     <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
-                    <p> Project title</p>
-
-                    <div class = "projects-overlay"> 
-                    <p>LEARN MORE</p>
+                    <div class = "projects-text">
+                        <p style={{fontSize: 50 + 'px'}}> Project title</p>
+                        <p style={{fontSize: 20 + 'px'}}> insert smol blurb about project here wow uwu </p>
+                        <p class = "projects-description"> aljhsdgkasj dajkhgdkajsf dhjkasfdkhgaf hgasfdkghfaskghdfa  shgdfahskd  faghsdfhgas fdhgasfd ahsd ah ada dadfasdfas fs f sfdasfasf asf asf ahjgfd jahf dghjadfhga dhadhgfa jhgdf ahjgfdhagjsfdhgasfdjhgasfd ghjasfdghjaf dkhasfdkhgasfdjhga </p>
                     </div>
+                    {/* <div class = "projects-overlay"> 
+                    <p>LEARN MORE</p>
+                    </div> */}
                 </div>
 
                 <div class = "projects-hex">
-                    <p> Projectttt title </p>
-                    <div class = "projects-overlay"> 
-                        <p>LEARN MORE</p>
+                    <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <div class = "projects-text">
+                        <p style={{fontSize: 50 + 'px'}}> Project title</p>
+                        <p style={{fontSize: 20 + 'px'}}> insert smol blurb about project here wow uwu </p>
+                        <p class = "projects-description"> aljhsdgkasj dajkhgdkajsf dhjkasfdkhgaf hgasfdkghfaskghdfa  shgdfahskd  faghsdfhgas fdhgasfd ahsd ah ada dadfasdfas fs f sfdasfasf asf asf ahjgfd jahf dghjadfhga dhadhgfa jhgdf ahjgfdhagjsfdhgasfdjhgasfd ghjasfdghjaf dkhasfdkhgasfdjhga </p>
                     </div>
 
                 </div>
 
                 <div class="projects-hex">
-                    <p> Project title</p>
-                    <div class = "projects-overlay"> 
-                        <p>LEARN MORE</p>
+                    <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <div class = "projects-text">
+                        <p style={{fontSize: 50 + 'px'}}> Project title</p>
+                        <p style={{fontSize: 20 + 'px'}}> insert smol blurb about project here wow uwu </p>
+                        <p class = "projects-description"> aljhsdgkasj dajkhgdkajsf dhjkasfdkhgaf hgasfdkghfaskghdfa  shgdfahskd  faghsdfhgas fdhgasfd ahsd ah ada dadfasdfas fs f sfdasfasf asf asf ahjgfd jahf dghjadfhga dhadhgfa jhgdf ahjgfdhagjsfdhgasfdjhgasfd ghjasfdghjaf dkhasfdkhgasfdjhga </p>
                     </div>
 
                 </div>
                 <div class="projects-hex">
-                    <p> Project title  </p>
-                    <div class = "projects-overlay"> 
-                        <p>LEARN MORE</p>
+                    <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <div class = "projects-text">
+                        <p style={{fontSize: 50 + 'px'}}> Project title</p>
+                        <p style={{fontSize: 20 + 'px'}}> insert smol blurb about project here wow uwu </p>
+                        <p class = "projects-description"> aljhsdgkasj dajkhgdkajsf dhjkasfdkhgaf hgasfdkghfaskghdfa  shgdfahskd  faghsdfhgas fdhgasfd ahsd ah ada dadfasdfas fs f sfdasfasf asf asf ahjgfd jahf dghjadfhga dhadhgfa jhgdf ahjgfdhagjsfdhgasfdjhgasfd ghjasfdghjaf dkhasfdkhgasfdjhga </p>
                     </div>
 
                 </div>
                 <div class="projects-hex">
-                    <p> insert project title </p>
-                    <div class = "projects-overlay"> 
-                        <p>LEARN MORE</p>
-                    </div>
-
-                </div>
-
-                <div class="projects-hex">
-                    <p> Project title </p>
-                    <div class = "projects-overlay"> 
-                        <p>LEARN MORE</p>
-                    </div>
-
-                </div>
-                <div class="projects-hex">
-                    <p> Project title</p>
-                    <div class = "projects-overlay"> 
-                        <p>LEARN MORE</p>
+                    <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <div class = "projects-text">
+                        <p style={{fontSize: 50 + 'px'}}> Project title</p>
+                        <p style={{fontSize: 20 + 'px'}}> insert smol blurb about project here wow uwu </p>
+                        <p class = "projects-description"> aljhsdgkasj dajkhgdkajsf dhjkasfdkhgaf hgasfdkghfaskghdfa  shgdfahskd  faghsdfhgas fdhgasfd ahsd ah ada dadfasdfas fs f sfdasfasf asf asf ahjgfd jahf dghjadfhga dhadhgfa jhgdf ahjgfdhagjsfdhgasfdjhgasfd ghjasfdghjaf dkhasfdkhgasfdjhga </p>
                     </div>
 
                 </div>
 
                 <div class="projects-hex">
-                    <p> Project title</p>
-                    <div class = "projects-overlay"> 
-                        <p>LEARN MORE</p>
+                    <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <div class = "projects-text">
+                        <p style={{fontSize: 50 + 'px'}}> Project title</p>
+                        <p style={{fontSize: 20 + 'px'}}> insert smol blurb about project here wow uwu </p>
+                        <p class = "projects-description"> aljhsdgkasj dajkhgdkajsf dhjkasfdkhgaf hgasfdkghfaskghdfa  shgdfahskd  faghsdfhgas fdhgasfd ahsd ah ada dadfasdfas fs f sfdasfasf asf asf ahjgfd jahf dghjadfhga dhadhgfa jhgdf ahjgfdhagjsfdhgasfdjhgasfd ghjasfdghjaf dkhasfdkhgasfdjhga </p>
                     </div>
 
                 </div>
                 <div class="projects-hex">
-                    <p> Project title</p>
-                    <div class = "projects-overlay"> 
-                        <p>LEARN MORE</p>
+                   <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <div class = "projects-text">
+                        <p style={{fontSize: 50 + 'px'}}> Project title</p>
+                        <p style={{fontSize: 20 + 'px'}}> insert smol blurb about project here wow uwu </p>
+                        <p class = "projects-description"> aljhsdgkasj dajkhgdkajsf dhjkasfdkhgaf hgasfdkghfaskghdfa  shgdfahskd  faghsdfhgas fdhgasfd ahsd ah ada dadfasdfas fs f sfdasfasf asf asf ahjgfd jahf dghjadfhga dhadhgfa jhgdf ahjgfdhagjsfdhgasfdjhgasfd ghjasfdghjaf dkhasfdkhgasfdjhga </p>
+                    </div>
+
+                </div>
+
+                <div class="projects-hex">
+                    <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <div class = "projects-text">
+                        <p style={{fontSize: 50 + 'px'}}> Project title</p>
+                        <p style={{fontSize: 20 + 'px'}}> insert smol blurb about project here wow uwu </p>
+                        <p class = "projects-description"> aljhsdgkasj dajkhgdkajsf dhjkasfdkhgaf hgasfdkghfaskghdfa  shgdfahskd  faghsdfhgas fdhgasfd ahsd ah ada dadfasdfas fs f sfdasfasf asf asf ahjgfd jahf dghjadfhga dhadhgfa jhgdf ahjgfdhagjsfdhgasfdjhgasfd ghjasfdghjaf dkhasfdkhgasfdjhga </p>
                     </div>
 
                 </div>
                 <div class="projects-hex">
-                    <p> Project title</p>
-                    <div class = "projects-overlay"> 
-                        <p>LEARN MORE</p>
+                    <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <div class = "projects-text">
+                        <p style={{fontSize: 50 + 'px'}}> Project title</p>
+                        <p style={{fontSize: 20 + 'px'}}> insert smol blurb about project here wow uwu </p>
+                        <p class = "projects-description"> aljhsdgkasj dajkhgdkajsf dhjkasfdkhgaf hgasfdkghfaskghdfa  shgdfahskd  faghsdfhgas fdhgasfd ahsd ah ada dadfasdfas fs f sfdasfasf asf asf ahjgfd jahf dghjadfhga dhadhgfa jhgdf ahjgfdhagjsfdhgasfdjhgasfd ghjasfdghjaf dkhasfdkhgasfdjhga </p>
+                    </div>
+
+                </div>
+                <div class="projects-hex">
+                    <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <div class = "projects-text">
+                        <p style={{fontSize: 50 + 'px'}}> Project title</p>
+                        <p style={{fontSize: 20 + 'px'}}> insert smol blurb about project here wow uwu </p>
+                        <p class = "projects-description"> aljhsdgkasj dajkhgdkajsf dhjkasfdkhgaf hgasfdkghfaskghdfa  shgdfahskd  faghsdfhgas fdhgasfd ahsd ah ada dadfasdfas fs f sfdasfasf asf asf ahjgfd jahf dghjadfhga dhadhgfa jhgdf ahjgfdhagjsfdhgasfdjhgasfd ghjasfdghjaf dkhasfdkhgasfdjhga </p>
                     </div>
 
                 </div>

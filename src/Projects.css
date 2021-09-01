@@ -107,6 +107,7 @@ padding-bottom: 50px;
 
 .projects-hex {
   display: flex;
+  flex-direction: column;
   width: 25vw;
   height: 28.5vw;
   background-color: #424242;
@@ -114,19 +115,50 @@ padding-bottom: 50px;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
 }
 
-.projects-hex p {
-  text-align: center;
-  display: inline-block;
-  font-size: 3vw;
-  margin-top: auto;
-  margin-bottom: auto;
+.projects-text {
   vertical-align: middle;
+  margin-top: 45%;
+  margin-bottom: auto;
+  animation: ease 1s;
+}
+
+.projects-description {
+  margin-top: 10vw;
+  font-size: 20px;
+}
+
+.projects-hex p {
   color: white;
   padding: 0 1vw;
   margin-left: auto;
   margin-right: auto;
 
 }
+
+@keyframes projects-translate-up {
+  100% {
+    transform: translateY(-23vw);
+  }
+}
+
+/* this doesnt workkk */
+@keyframes projects-translate-down {
+  100% {
+    transform: translateY(23vw);
+  }
+}
+
+.projects-hex:hover {
+  background-color: black;
+}
+
+.projects-hex:hover >.projects-text {
+  animation: projects-translate-up 1s forwards;
+}
+/* 
+.projects-text:not(:hover) {
+  animation: projects-translate-down;
+} */
 
 .projects-overlay {
   position: absolute;
