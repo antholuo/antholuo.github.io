@@ -41,11 +41,83 @@ class Projects extends React.Component {
                 </Row>
             </Container>
         )
+                        /*<section>
+                <div class="project-hexaline"> 
+
+                    <div class="project-hexa">
+                        <span class="project-hexa_text">Toutes nos Créations</span>
+                    </div>
+                    <div class="project-hexa">
+                        <span class="project-hexa_text">Toutes nos Créations</span>
+                    </div>
+                </div>
+
+
+                <div class="project-hexaline">
+                <div class="project-hexa">
+                        <span class="project-hexa_text">Aller sur le Forum</span>
+                    </div>
+                    <div class="project-hexa">
+                        <span class="project-hexa_text">Aller sur le Forum</span>
+                    </div>
+
+                    <div class="project-hexa">
+                        <span class="project-hexa_text">Notre Philosophie</span>
+                    </div>
+
+                </div>
+
+
+                <div class="project-hexaline">
+                    <div class="project-hexa">
+                        <span class="project-hexa_text">Inscription<br/>Connexion</span>
+                    </div>
+                    <div class="project-hexa">
+                        <span class="project-hexa_text">Equipe d'HexaDev</span>
+                    </div>
+                </div>
+
+               
+                <div class="project-hexaline">
+                <div class="project-hexa">
+                        <span class="project-hexa_text">Aller sur le Forum</span>
+                    </div>
+                    <div class="project-hexa">
+                        <span class="project-hexa_text">Aller sur le Forum</span>
+                    </div>
+
+                    <div class="project-hexa">
+                        <span class="project-hexa_text">Notre Philosophie</span>
+                    </div>
+
+                </div>
+                </section> 
     }*/
 
     render() {
         return (
-            <Container> uwu</Container>
+            <section class="hexagon-gallery">
+                <div class="hex">
+                    <img src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <p> UWUWUWUWUWU kjyagsdkjyaf dkajgdkajgd jkhafdkhagf djh </p>
+                    <div class = "overlay"> PROJECT TITLE </div>
+                </div>
+                <div class="hex"></div>
+
+                <div class="hex"></div>
+                <div class="hex"></div>
+                <div class="hex"></div>
+
+                <div class="hex"></div>
+                <div class="hex"></div>
+
+                <div class="hex"></div>
+                <div class="hex"></div>
+                <div class="hex"></div>
+           
+            </section>
+
+                
         )
     }
 }
