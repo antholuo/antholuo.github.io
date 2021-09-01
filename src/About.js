@@ -27,6 +27,11 @@ class About extends React.Component {
             </Row>
             <Row>
               <Col>
+                <p className="text">Below are some of my most commonly used languages and tools :D</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
                 <p>Altium & Kicad</p>
               </Col>
               <Col>
@@ -42,10 +47,16 @@ class About extends React.Component {
                 <p>Python & Java</p>
               </Col>
               <Col>
+                <p>Git/VCS & Jenkins</p>
+              </Col>
+              <Col>
                 <p>Tensorflow & SciKit</p>
               </Col>
             </Row>
           </Container>
+        </div>
+        <div className="education">
+          EDUCAYSHEN
         </div>
       </>
     )

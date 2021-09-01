@@ -183,11 +183,9 @@
 }
   
 .about-title .text{
-  font-size: 18px;
+  font-size: 22px;
   letter-spacing: 0.03em;
   color: black;
-  margin-top: 2%;
-  margin-bottom: 5%;
   padding-left: 5%;
   padding-right: 5%;
 }
