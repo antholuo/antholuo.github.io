@@ -13,17 +13,19 @@ class About extends React.Component {
       <>
         <div className="about-title">
           <Container>
-            <p className="header">Hi! My name's anthony. Nice to meet you.</p>
             <Row>
-              <Col xs={12} md={4}>
-                <Image src={img} roundedCircle fluid/>
+              <p className="header">Fancy seeing you here, eh?</p>
+            </Row>
+            <Row style={{ padding: 50 }}>
+              <Col xs={12} md={3}>
+                <Image src={img} roundedCircle fluid className="pfp-image"/>
               </Col>
-              <Col xs={12} md={8}>
-                <p className="header">THIS IS SOME MORE STUFF ABOUT ME I'lL JUST KEEP TYPING UNTIL IT WORKS OUT YUP</p>
+              <Col xs={12} md={9}>
+                <p className="info-header">I'm a Computer Engineering undergraduate student at the University of Waterloo, but you already knew that, didn't you? <br></br>
+                I work with embedded systems and firmware, as well as with FPGA's and ASIC's. I also happen to love table tennis and camping!</p>
               </Col>
             </Row>
           </Container>
-
         </div>
       </>
     )

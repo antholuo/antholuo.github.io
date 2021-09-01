@@ -173,7 +173,13 @@
   margin-right: auto;
   margin-left: auto;
   padding-top: 5%;
-  padding-bottom: 5%;
+}
+
+.about-title .info-header {
+  font-size: 35px;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
 }
   
 .about-title .text{
@@ -193,4 +199,8 @@
   height: 5px !important;
   background: powderblue;
   opacity: 100%;
+}
+
+.about-title .pfp-image {
+  padding-top: 7%;
 }
