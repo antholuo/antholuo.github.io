@@ -96,24 +96,24 @@ class Projects extends React.Component {
 
     render() {
         return (
-            <section class="hexagon-gallery">
-                <div class="hex">
-                    <img src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
-                    <p> UWUWUWUWUWU kjyagsdkjyaf dkajgdkajgd jkhafdkhagf djh </p>
-                    <div class = "overlay"> PROJECT TITLE </div>
+            <section class="projects-hexagon-gallery">
+                <div class="projects-hex">
+                    <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <p> UWUWUWU</p>
+                    <div class = "projects-overlay"> PROJECT TITLE </div>
                 </div>
-                <div class="hex"></div>
+                <div class="projects-hex"></div>
 
-                <div class="hex"></div>
-                <div class="hex"></div>
-                <div class="hex"></div>
+                <div class="projects-hex"></div>
+                <div class="projects-hex"></div>
+                <div class="projects-hex"></div>
 
-                <div class="hex"></div>
-                <div class="hex"></div>
+                <div class="projects-hex"></div>
+                <div class="projects-hex"></div>
 
-                <div class="hex"></div>
-                <div class="hex"></div>
-                <div class="hex"></div>
+                <div class="projects-hex"></div>
+                <div class="projects-hex"></div>
+                <div class="projects-hex"></div>
            
             </section>
 
