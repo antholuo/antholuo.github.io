@@ -83,10 +83,12 @@ class Work extends React.Component {
                         <p>
                             During my first four month co-op term with Ciena, I worked with the optical ASIC development and verification teams to provide design and verification tools. Some highlights include: <br></br>
                             <ul>
-                                <li>Writing development tools in System Verilog</li>
-                                <li>Creating wrappers, design checks, and automation scripts in Python</li>
-                                <li>Integrating design checks into Jenkins builds using Bash and Makefiles</li>
-                                <li>Worked within a Fedora Linux environment_</li>
+                                <li>Writing development tools in System Verilog.</li>
+                                <li>Creating wrappers, design checks, and automation scripts in Python.</li>
+                                <li>Integrating design checks into Jenkins builds using Bash and Makefiles.</li>
+                                <li>Worked within a Fedora Linux environment.</li>
+                                <li>Used clearcase to version control, checkin, checkout, and submit code.</li>
+                                <li>Aided in the transition from clearcase to git.</li>
                             </ul>
                         </p>
                         <a href="https://www.ciena.ca/">Ciena Canada |  https://www.ciena.ca/</a>
@@ -94,15 +96,39 @@ class Work extends React.Component {
                 </div>
                 <div class="box">
                     <div class="work">
-                        <p class="header">The Secret Lab</p>
+                        <p class="header">Nokia</p>
                         <hr class="body-line"></hr>
 
-                        <p> May 2016 - current </p>
+                        <p> May 2019 - August 2019 </p>
                     </div>
                     <div class="description">
-                        <p class="header">Fulltime - Senior Web Developer</p>
-                        <p>As a senior at The Secret Lab I work on projects like Kaartjes.nl, Clay.com and more. Using frameworks and technologies such as Laravel, Wordpress, Drupal 8 and ElasticSearch. I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.</p>
+                        <p class="header">Co-op: Software Engineering</p>
+                        <p>As part of the Nokia Convergent Charging team, I wrote tools for internal testing as well as features for our client 5g servers.</p>
+                        <ul>
+                            <li>Developed and operated within a RedHat Enterprise Linux environment.</li>
+                            <li>Wrote tools and features using Java in Eclipse.</li>
+                            <li>Submitted and debugged features using Python and Bash with git as a Version Control System.</li>
+                            <li>Worked independently to solve problems and learn the code repository.</li>
+                            <li>Developed strong working relationships with team members through an Agile team approach.</li>
+                        </ul>
                         <a href="url">Eindhoven |  http://startselect.com</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="work">
+                        <p class="header">City of Ottawa</p>
+                        <hr class="body-line"></hr>
+
+                        <p> January 2016 - August 2021 </p>
+                    </div>
+                    <div class="description">
+                        <p class="header">Part Time: Specialist Sports Instructor</p>
+                        <p>Since starting my volunteering in 2014, I have actively been a part of leading sports programs at various City of Ottawa facilities.
+                            Throughout my time, I have worked with clients of all ages to help them reach their goals in various disciplines such as Table Tennis, Badminton, Rock Climbing, and Swimming!
+                            <br></br>
+                            I have learned a lot about building strong working relationships not only with clients, but also with co-workers and other maintenance and management staff in order to provide the best customer experience for our clients.
+                        </p>
+                        <a href="https://ottawa.ca/en">City of Ottawa |  https://ottawa.ca/en</a>
                     </div>
                 </div>
             </container>
