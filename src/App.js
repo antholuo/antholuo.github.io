@@ -6,6 +6,7 @@ import About from './About'
 import Home from './Home'
 import Resume from './Resume'
 import Work from './Work'
+import Projects from './Projects'
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -58,9 +59,9 @@ function App() {
 
 export default App;
 
-const Projects = ({ match }) => (
-  <header className="light-header">
-    <h1>Projects page under development! Come back soon</h1>
-  </header>
-)
+// const Projects = ({ match }) => (
+//   <header className="light-header">
+//     <h1>Projects page under development! Come back soon</h1>
+//   </header>
+// )
 
