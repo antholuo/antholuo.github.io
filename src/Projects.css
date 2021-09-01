@@ -85,10 +85,13 @@ section {
 */
 
 .projects-img {
+  position: absolute;
   width: 100%;
   height: auto;
   display: block;
   object-fit: cover;
+  opacity: 50%;
+  z-index: -1;
 }
   
 .projects-hexagon-gallery {
@@ -108,26 +111,57 @@ padding-bottom: 50px;
   height: 28.5vw;
   background-color: #424242;
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
+}
+
+.projects-hex p {
+  text-align: center;
+  display: inline-block;
+  font-size: 3vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+  color: white;
+  padding: 0 1vw;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .projects-overlay {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
+  display: flex;
+  width: 25vw;
+  height: 28.5vw;
+  background-color: #424242;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
-  text-align: center;
-  font-size: 100px;
 }
 
+.projects-overlay p{
+  text-align: center;
+  display: inline-block;
+  font-size: 2.5vw;
+  border: 2px solid white;
+  background-color: grey;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+  color: white;
+  padding: 0 1vw;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+}
 
-.projects-hex:hover .overlay {
+.projects-overlay p:hover {
+  background-color: lightgrey;
+}
+
+.projects-hex:hover .projects-overlay {
   opacity: 1;
 }
 
@@ -136,22 +170,10 @@ padding-bottom: 50px;
   grid-column: 2 / span 2;
 }
 
-.projects-hex:first-child p{
-    position: absolute;
-    text-align: center;
-    margin-top: 9%;
-    margin-left: 4.5vw;
-    margin-right: 70vw;
-
-    font-size: 3vw;
-    background-color: aqua;
-}
-
 .projects-hex:nth-child(2) {
   grid-row-start: 1;
   grid-column: 4 / span 2;
 }
-
 
 .projects-hex:nth-child(3) {
   grid-row-start: 2;

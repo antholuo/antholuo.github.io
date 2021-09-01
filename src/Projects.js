@@ -99,21 +99,79 @@ class Projects extends React.Component {
             <section class="projects-hexagon-gallery">
                 <div class="projects-hex">
                     <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
-                    <p> UWUWUWU</p>
-                    <div class = "projects-overlay"> PROJECT TITLE </div>
+                    <p> Project title</p>
+
+                    <div class = "projects-overlay"> 
+                    <p>LEARN MORE</p>
+                    </div>
                 </div>
-                <div class="projects-hex"></div>
 
-                <div class="projects-hex"></div>
-                <div class="projects-hex"></div>
-                <div class="projects-hex"></div>
+                <div class = "projects-hex">
+                    <p> Projectttt title </p>
+                    <div class = "projects-overlay"> 
+                        <p>LEARN MORE</p>
+                    </div>
 
-                <div class="projects-hex"></div>
-                <div class="projects-hex"></div>
+                </div>
 
-                <div class="projects-hex"></div>
-                <div class="projects-hex"></div>
-                <div class="projects-hex"></div>
+                <div class="projects-hex">
+                    <p> Project title</p>
+                    <div class = "projects-overlay"> 
+                        <p>LEARN MORE</p>
+                    </div>
+
+                </div>
+                <div class="projects-hex">
+                    <p> Project title  </p>
+                    <div class = "projects-overlay"> 
+                        <p>LEARN MORE</p>
+                    </div>
+
+                </div>
+                <div class="projects-hex">
+                    <p> insert project title </p>
+                    <div class = "projects-overlay"> 
+                        <p>LEARN MORE</p>
+                    </div>
+
+                </div>
+
+                <div class="projects-hex">
+                    <p> Project title </p>
+                    <div class = "projects-overlay"> 
+                        <p>LEARN MORE</p>
+                    </div>
+
+                </div>
+                <div class="projects-hex">
+                    <p> Project title</p>
+                    <div class = "projects-overlay"> 
+                        <p>LEARN MORE</p>
+                    </div>
+
+                </div>
+
+                <div class="projects-hex">
+                    <p> Project title</p>
+                    <div class = "projects-overlay"> 
+                        <p>LEARN MORE</p>
+                    </div>
+
+                </div>
+                <div class="projects-hex">
+                    <p> Project title</p>
+                    <div class = "projects-overlay"> 
+                        <p>LEARN MORE</p>
+                    </div>
+
+                </div>
+                <div class="projects-hex">
+                    <p> Project title</p>
+                    <div class = "projects-overlay"> 
+                        <p>LEARN MORE</p>
+                    </div>
+
+                </div>
            
             </section>
 
