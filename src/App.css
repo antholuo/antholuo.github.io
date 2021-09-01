@@ -204,6 +204,12 @@
   padding-top: 0;
 }
 
+
+
+/*
+* HEXAMAGONS
+*/
+
 .hexa:hover {
   background: #34495e;
   color: #ecf0f1;
