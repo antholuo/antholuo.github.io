@@ -58,14 +58,13 @@ class Home extends React.Component {
                         <Container>
                             <Row>
                                 <Col md={4}><br></br></Col>
-                                <Col md={2}><Button as={Link} to="/work">Professional Experience</Button>
+                                <Col md={2}><Button variant="outline-dark" as={Link} to="/work">Professional Experience</Button>
                                 </Col>
-                                <Col md={2}><Button as={Link} to="/resume">Resume</Button>
+                                <Col md={2}><Button variant="outline-dark" as={Link} to="/resume">Resume</Button>
                                 </Col>
                                 
                             </Row>
                         </Container>
-                        
                         <a
                             className="App-link"
                             href="https://github.com/antholuo"
