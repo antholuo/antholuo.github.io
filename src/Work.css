@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
 
-.Container {
+/* .Container {
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 2%;
-}
+} */
 
 .work-info-r {
     text-align: right;
@@ -31,12 +31,12 @@
     padding-bottom:0%;
 }
 
-container {
+.Container {
   display: flex;
   flex-direction: column;
   margin-top: 2%;
-  padding-left: 23%;
-  padding-right: 23%;
+  padding-left: 23% !important;
+  padding-right: 23% !important;
 
   
 }
