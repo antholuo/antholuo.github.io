@@ -200,7 +200,7 @@ class Projects extends React.Component {
                     <div class="projects-text">
                         <p class = "projects-text-title"> Facial Recognition & Classification System</p>
                         <p class = "projects-text-blurb"> Raspberry Pi | Servos | Tf | Python | Pillow </p>
-                        <p class="projects-description"> I used network-linked raspberry Pi 4's to interface with external I/O Devices csuch as displays, speakers, leds, and cameras in order to run my custom machine learning model for facial recognition and classification. The program works by taking a face and classifying it, and then using tuned PID algorithms we can maintain visual lock with a target and use a relational database to lookup the persons information. </p>
+                        <p class="projects-description"> Custom machine learning model for facial recognition and classification. Tuned PID algorithms on network Pi 4's can maintain visual lock with a target and use a relational database to lookup information.</p>
                     </div>
 
                 </div>
