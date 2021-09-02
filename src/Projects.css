@@ -88,7 +88,7 @@ section {
   position: absolute;
   width: 40%;
   height: auto;
-  opacity: 50%;
+  opacity: 35%;
 }
   
 .projects-hexagon-gallery {
@@ -148,7 +148,7 @@ section {
 
 @keyframes projects-translate-up {
   100% {
-    transform: translateY(-25vw);
+    transform: translateY(-15vw);
   }
 }
 
