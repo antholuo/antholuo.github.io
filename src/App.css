@@ -218,7 +218,7 @@
   /* margin-top: 50px; */
   max-width: 40vw;
   display: grid;
-  grid-auto-columns: 15vh;
+  grid-auto-columns: 8vw;
   grid-auto-rows: 5vw;
   padding-bottom: 50px;
   }

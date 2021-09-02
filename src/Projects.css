@@ -168,6 +168,8 @@ section {
 .projects-hex:hover >.projects-text {
   animation: projects-translate-up 1s forwards;
 }
+
+.projects-overlay:active
 /* 
 .projects-text:not(:hover) {
   animation: projects-translate-down;
