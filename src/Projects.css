@@ -184,6 +184,7 @@ section {
 
 .projects-hex:active {
   -webkit-transform: scaleX(3);
+  z-index: 1000;
 
 }
 
