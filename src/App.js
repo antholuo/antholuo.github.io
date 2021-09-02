@@ -29,18 +29,18 @@ function App() {
   return (
     <Router basename='/'>
       <div className="App">
-        <Navbar collapseOnSelect  bg="light" expand="md">
+        <Navbar collapseOnSelect  bg="light" expand="md" className="navbar">
           <Container>
-            <Navbar.Brand as={Link} to="/">Anthony Luo</Navbar.Brand>
+            <Navbar.Brand className="navbar-brand" as={Link} to="/">Anthony Luo</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link as={Link} to="/work">Professional Experience</Nav.Link>
-                <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
+                <Nav.Link className="navbar-text" as={Link} to="/work">Professional Experience</Nav.Link>
+                <Nav.Link className="navbar-text" as={Link} to="/projects">Projects</Nav.Link>
               </Nav>
               <Nav>
-                <Nav.Link as={Link} to="/about">About</Nav.Link>
-                <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
+                <Nav.Link className="navbar-text" as={Link} to="/about">About</Nav.Link>
+                <Nav.Link className="navbar-text" as={Link} to="/resume">Resume</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

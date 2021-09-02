@@ -39,6 +39,16 @@
   color: #61dafb;
 }
 
+.navbar-brand {
+  font-weight:bolder;
+  font-size: 125%;
+}
+
+.navbar-text {
+  font-weight:bolder;
+  font-size: 125%;
+}
+
 /*
 * The home section begins below here
 */ 
