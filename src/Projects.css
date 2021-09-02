@@ -98,7 +98,7 @@ section {
   align-content: center;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 50px;
+  margin-top: 5vh;
   max-width: 75vw;
   display: grid;
   /* grid-template-columns: auto auto auto; */
