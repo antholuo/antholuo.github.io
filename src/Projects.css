@@ -131,6 +131,7 @@ section {
   margin-top: 42%;
   margin-bottom: auto;
   animation: ease 1s;
+  z-index: 110;
 }
 
 .projects-description {
