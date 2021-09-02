@@ -8,6 +8,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import Overdrive from 'react-overdrive'
 
 
 import spike from './media/proj/spike.jpg';
@@ -109,8 +110,27 @@ class Projects extends React.Component {
     // and then on hover the image darkens and the title slides up and away and info about the project slides up
     // and then on click the bg image turns grey or wtv and the outline of the hexagon slowly zooms outwards to fill the entire screen with grey
     // and then you arrive at your new project page !
+
+    constructor(props) {
+        super(props);
+        this.addActiveClass = this.addActiveClass.bind(this);
+        this.state = {
+            active: false,
+        };
+    }
+
+    toggleClass() {
+        const currentState = this.state.active;
+        this.setState({active: !currentState});
+
+    };
+
     render() {
         return (
+            <body>
+            <div class = "projects-white-box"></div>
+            <div class = "projects-open-hex"></div>
+
             <section class="projects-hexagon-gallery">
                 <div class="projects-hex" type="button">
                     <img class="projects-img" src={spike} alt="some"></img>
@@ -207,7 +227,7 @@ class Projects extends React.Component {
 
 
             </section>
-
+            </body>
 
         )
     }
