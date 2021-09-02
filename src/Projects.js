@@ -101,7 +101,7 @@ class Projects extends React.Component {
     render() {
         return (
             <section class="projects-hexagon-gallery">
-                <div class="projects-hex">
+                <div class="projects-hex" type="button">
                     <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
                     <div class = "projects-text">
                         <p style={{fontSize: 50 + 'px'}}> Project title</p>
@@ -113,7 +113,7 @@ class Projects extends React.Component {
                     </div> */}
                 </div>
 
-                <div class = "projects-hex">
+                <div class = "projects-hex" type="button">
                     <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
                     <div class = "projects-text">
                         <p style={{fontSize: 50 + 'px'}}> Project title</p>
@@ -123,7 +123,7 @@ class Projects extends React.Component {
 
                 </div>
 
-                <div class="projects-hex">
+                <div class="projects-hex" type="button">
                     <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
                     <div class = "projects-text">
                         <p style={{fontSize: 50 + 'px'}}> Project title</p>
@@ -132,7 +132,7 @@ class Projects extends React.Component {
                     </div>
 
                 </div>
-                <div class="projects-hex">
+                <div class="projects-hex" type="button">
                     <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
                     <div class = "projects-text">
                         <p style={{fontSize: 50 + 'px'}}> Project title</p>
@@ -141,7 +141,7 @@ class Projects extends React.Component {
                     </div>
 
                 </div>
-                <div class="projects-hex">
+                <div class="projects-hex" type="button">
                     <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
                     <div class = "projects-text">
                         <p style={{fontSize: 50 + 'px'}}> Project title</p>
@@ -151,7 +151,7 @@ class Projects extends React.Component {
 
                 </div>
 
-                <div class="projects-hex">
+                <div class="projects-hex" type="button">
                     <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
                     <div class = "projects-text">
                         <p style={{fontSize: 50 + 'px'}}> Project title</p>
@@ -160,7 +160,7 @@ class Projects extends React.Component {
                     </div>
 
                 </div>
-                <div class="projects-hex">
+                <div class="projects-hex" type="button">
                    <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
                     <div class = "projects-text">
                         <p style={{fontSize: 50 + 'px'}}> Project title</p>
@@ -170,7 +170,7 @@ class Projects extends React.Component {
 
                 </div>
 
-                <div class="projects-hex">
+                <div class="projects-hex" type="button">
                     <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
                     <div class = "projects-text">
                         <p style={{fontSize: 50 + 'px'}}> Project title</p>
