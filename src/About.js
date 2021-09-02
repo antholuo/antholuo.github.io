@@ -3,7 +3,11 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image'
+import Image from 'react-bootstrap/Image';
+
+import Button from 'react-bootstrap/Button';
+
+import { Route, Link, useHistory, HashRouter as Router } from 'react-router-dom'
 
 import img from './media/pfp.jpg'
 
@@ -63,21 +67,24 @@ class About extends React.Component {
         </div>
         <div>
           <section className="about-hexagon-gallery">
-            <div className="about-hex">
+            <a href="/" className="about-hex">
               <p>Home</p>
-            </div>
-            <div className="about-hex">
+            </a>"
+            <a href="/#/work" className="about-hex">
               <p>Work Experience</p>
-            </div>
-            <div className="about-hex">
+            </a>
+            <a href="/#/projects" className="about-hex">
               <p>Projects</p>
-            </div>
-            <div className="about-hex">
+            </a>
+            <a href="/#/resume" className="about-hex">
               <p>Resume</p>
-            </div>
-            <div className="about-hex">
+            </a>
+            <a href="https://github.com/antholuo" className="about-hex" target="_blank"
+                            rel="noopener noreferrer">
               <p>Github</p>
-            </div>
+            </a>
+
+
           </section>
         </div>
       </>
