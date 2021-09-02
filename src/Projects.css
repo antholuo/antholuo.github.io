@@ -95,14 +95,16 @@ section {
 }
   
 .projects-hexagon-gallery {
-margin-right: auto;
-margin-left: auto;
-margin-top: 50px;
-max-width: 78vw;
-display: grid;
-grid-template-columns: auto auto auto;
-grid-auto-rows: 22.3vw;
-padding-bottom: 50px;
+  align-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  max-width: 75vw;
+  display: grid;
+  /* grid-template-columns: auto auto auto; */
+  grid-auto-columns: 24vw;
+  grid-auto-rows: 14vw;
+  padding-bottom: 50px;
 }
 
 /* original */
@@ -175,7 +177,7 @@ padding-bottom: 50px;
   position: absolute;
   display: flex;
   width: 25vw;
-  height: 28.5vw;
+  height: 25vw;
   background-color: #424242;
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 

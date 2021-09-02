@@ -111,7 +111,7 @@ class Work extends React.Component {
                             <li>Worked independently to solve problems and learn the code repository.</li>
                             <li>Developed strong working relationships with team members through an Agile team approach.</li>
                         </ul>
-                        <a href="url">Eindhoven |  http://startselect.com</a>
+                        <a href="https://www.nokia.com/">Nokia |  https://www.nokia.com/</a>
                     </div>
                 </div>
                 <div class="box">
