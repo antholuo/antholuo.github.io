@@ -52,24 +52,21 @@ class Home extends React.Component {
                 <div>
                     <header className="light-header">
                         <img src={logo} className="App-logo" alt="logo" />
-                        <p>
+                        <p style={{fontSize: 35}}>
                             This site is currently in progress :D. Expect updates regularly! Currenty functioning:
                         </p>
                         <Container>
                             <Row>
                                 <Col>
-                                Resume | About | Projects | Professional Experience
+                                <Button as={Link} to="/projects" variant="link" style={{fontSize: 25}}>Projects</Button>|
+                                <Button as={Link} to="/work" variant="link" style={{fontSize: 25}}>Work Experience</Button>|
+                                <Button as={Link} to="/about" variant="link" style={{fontSize: 25}}>About</Button>|
+                                <Button as={Link} to="/resume" variant="link" style={{fontSize: 25}}>Resume</Button>|
+                                <Button as={Link} to="https://github.com/antholuo" variant="link" style={{fontSize: 25}}>GitHub</Button>|
+                                <Button as={Link} to="https://www.linkedin.com/in/antholuo" variant="link" style={{fontSize: 25}}>LinkedIn</Button>
                                 </Col>
                             </Row>
                         </Container>
-                        <a
-                            className="App-link"
-                            href="https://github.com/antholuo"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Go to my github
-                        </a>
                     </header>
                 </div>
                 <section>
