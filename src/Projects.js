@@ -9,12 +9,23 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
+
+import spike from './media/proj/spike.jpg';
+import robo from './media/proj/2381.jpg';
+import hex from './media/proj/hex.jfif';
+import rnm from './media/proj/rnm75.png';
+import roborace from './media/proj/Roborace.jpg';
+import ecor1052 from './media/proj/ecor1052.jpg';
+import slav from './media/proj/slav.jpg';
+import ece106 from './media/proj/ece106.jpg';
+
 <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
     crossorigin="anonymous"
 />
+
 
 
 class Projects extends React.Component {
@@ -102,7 +113,7 @@ class Projects extends React.Component {
         return (
             <section class="projects-hexagon-gallery">
                 <div class="projects-hex" type="button">
-                    <img class="projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <img class="projects-img" src={spike} alt="some"></img>
                     <div class="projects-text">
                         <p style={{ fontSize: 50 + 'px' }}> WARG - spike</p>
                         <p style={{ fontSize: 20 + 'px' }}> c++ | STM Cube Ide | git </p>
@@ -114,7 +125,7 @@ class Projects extends React.Component {
                 </div>
                 
                 <div class="projects-hex" type="button">
-                    <img class="projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <img class="projects-img" src={robo} alt="some"></img>
                     <div class="projects-text">
                         <p style={{ fontSize: 50 + 'px' }}> 2381 Robotics</p>
                         <p style={{ fontSize: 20 + 'px' }}> C | Adaptive Pure Pursuit | Inventor </p>
@@ -126,7 +137,7 @@ class Projects extends React.Component {
                 
 
                 <div class="projects-hex" type="button">
-                    <img class="projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <img class="projects-img" src={hex} alt="some"></img>
                     <div class="projects-text">
                         <p style={{ fontSize: 50 + 'px' }}> WARG - 2022 Plane</p>
                         <p style={{ fontSize: 20 + 'px' }}> More details to come </p>
@@ -146,16 +157,16 @@ class Projects extends React.Component {
                 </div>
 
                 <div class="projects-hex" type="button">
-                    <img class="projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <img class="projects-img" src={ece106} alt="some"></img>
                     <div class="projects-text">
-                        <p style={{ fontSize: 50 + 'px' }}> RNM 75E</p>
-                        <p style={{ fontSize: 20 + 'px' }}> KiCad | Altium | SolidWorks </p>
-                        <p class="projects-description"> Designed a custom keyboard PCB and case using KiCad Altium and SolidWorks </p>
+                        <p style={{ fontSize: 50 + 'px' }}> Fringe Field Capacitance Rainfall Senor</p>
+                        <p style={{ fontSize: 20 + 'px' }}> Arduino | ECE 106 </p>
+                        <p class="projects-description"> Designed a custom pcb that is designed to leverage fringe fields to measure the amount of rain/moisture through a windshield/acrylic barrier through changes in capacitance. Designed as a final project for ece 106 </p>
                     </div>
 
                 </div>
                 <div class="projects-hex" type="button">
-                    <img class="projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <img class="projects-img" src={roborace} alt="some"></img>
                     <div class="projects-text">
                         <p style={{ fontSize: 50 + 'px' }}> Deep Learning Object Detector</p>
                         <p style={{ fontSize: 20 + 'px' }}> Python | Keras | Tensorflow | Open CV</p>
@@ -165,7 +176,7 @@ class Projects extends React.Component {
                 </div>
 
                 <div class="projects-hex" type="button">
-                    <img class="projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <img class="projects-img" src={ecor1052} alt="some"></img>
                     <div class="projects-text">
                         <p style={{ fontSize: 50 + 'px' }}> Facial Recognition & Classification System</p>
                         <p style={{ fontSize: 20 + 'px' }}> Raspberry Pi | Servos | Tf | Python | Pillow </p>
@@ -175,7 +186,16 @@ class Projects extends React.Component {
                 </div>
 
                 <div class="projects-hex" type="button">
-                    <img class="projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
+                    <img class="projects-img" src={rnm} alt="some"></img>
+                    <div class="projects-text">
+                        <p style={{ fontSize: 50 + 'px' }}> RNM 75E</p>
+                        <p style={{ fontSize: 20 + 'px' }}> KiCad | Altium | SolidWorks </p>
+                        <p class="projects-description"> Designed a custom keyboard PCB and case using KiCad Altium and SolidWorks </p>
+                    </div>
+                </div>
+
+                <div class="projects-hex" type="button">
+                    <img class="projects-img" src={slav} alt="some"></img>
                     <div class="projects-text">
                         <p style={{ fontSize: 50 + 'px' }}> SLAV - Live Sound Engineer</p>
                         <p style={{ fontSize: 20 + 'px' }}> X32 | FOH Sound Engineer </p>
