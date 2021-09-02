@@ -115,8 +115,8 @@ class Projects extends React.Component {
                 <div class="projects-hex" type="button">
                     <img class="projects-img" src={spike} alt="some"></img>
                     <div class="projects-text">
-                        <p style={{ fontSize: 50 + 'px' }}> WARG - spike</p>
-                        <p style={{ fontSize: 20 + 'px' }}> c++ | STM Cube Ide | git </p>
+                        <p class = "projects-text-title"> WARG - spike</p>
+                        <p class = "projects-text-blurb"> c++ | STM Cube Ide | git </p>
                         <p class="projects-description"> worked with WARG team to develop gimbal stabilization and path-management systems for our SPIKE plane </p>
                     </div>
                     {/* <div class = "projects-overlay"> 
@@ -127,8 +127,8 @@ class Projects extends React.Component {
                 <div class="projects-hex" type="button">
                     <img class="projects-img" src={robo} alt="some"></img>
                     <div class="projects-text">
-                        <p style={{ fontSize: 50 + 'px' }}> 2381 Robotics</p>
-                        <p style={{ fontSize: 20 + 'px' }}> C | Adaptive Pure Pursuit | Inventor </p>
+                        <p class = "projects-text-title"> 2381 Robotics</p>
+                        <p class = "projects-text-blurb"> C | Adaptive Pure Pursuit | Inventor </p>
                         <p class="projects-description"> For 3 years I was the team captain of 2381 robotics, and I worked to consistently grow and improve the team by working on both hardware and software design. </p>
                     </div>
 
@@ -139,8 +139,8 @@ class Projects extends React.Component {
                 <div class="projects-hex" type="button">
                     <img class="projects-img" src={hex} alt="some"></img>
                     <div class="projects-text">
-                        <p style={{ fontSize: 50 + 'px' }}> WARG - 2022 Plane</p>
-                        <p style={{ fontSize: 20 + 'px' }}> More details to come </p>
+                        <p class = "projects-text-title"> WARG - 2022 Plane</p>
+                        <p class = "projects-text-blurb"> More details to come </p>
                         <p class="projects-description"> aljhsdgkasj dajkhgdkajsf dhjkasfdkhgaf hgasfdkghfaskghdfa  shgdfahskd  faghsdfhgas fdhgasfd ahsd ah ada dadfasdfas fs f sfdasfasf asf asf ahjgfd jahf dghjadfhga dhadhgfa jhgdf ahjgfdhagjsfdhgasfdjhgasfd ghjasfdghjaf dkhasfdkhgasfdjhga </p>
                     </div>
 
@@ -149,8 +149,8 @@ class Projects extends React.Component {
                 <div class="projects-hex" type="button">
                     <img class="projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
                     <div class="projects-text">
-                        <p style={{ fontSize: 50 + 'px' }}> AI Music Generator</p>
-                        <p style={{ fontSize: 20 + 'px' }}> Python | Tensorflow | Music 21 </p>
+                        <p class = "projects-text-title"> AI Music Generator</p>
+                        <p class = "projects-text-blurb"> Python | Tensorflow | Music 21 </p>
                         <p class="projects-description"> A bot that automatically generates new music in a similar style to the given input using linear and non-linear models to extrapolate data. Built and developed within an Ubuntu Virtual machine </p>
                     </div>
 
@@ -159,8 +159,8 @@ class Projects extends React.Component {
                 <div class="projects-hex" type="button">
                     <img class="projects-img" src={ece106} alt="some"></img>
                     <div class="projects-text">
-                        <p style={{ fontSize: 50 + 'px' }}> Fringe Field Capacitance Rainfall Senor</p>
-                        <p style={{ fontSize: 20 + 'px' }}> Arduino | ECE 106 </p>
+                        <p class = "projects-text-title"> Fringe Field Capacitance Rainfall Senor</p>
+                        <p class = "projects-text-blurb"> Arduino | ECE 106 </p>
                         <p class="projects-description"> Designed a custom pcb that is designed to leverage fringe fields to measure the amount of rain/moisture through a windshield/acrylic barrier through changes in capacitance. Designed as a final project for ece 106 </p>
                     </div>
 
@@ -168,8 +168,8 @@ class Projects extends React.Component {
                 <div class="projects-hex" type="button">
                     <img class="projects-img" src={roborace} alt="some"></img>
                     <div class="projects-text">
-                        <p style={{ fontSize: 50 + 'px' }}> Deep Learning Object Detector</p>
-                        <p style={{ fontSize: 20 + 'px' }}> Python | Keras | Tensorflow | Open CV</p>
+                        <p class = "projects-text-title"> Deep Learning Object Detector</p>
+                        <p class = "projects-text-blurb"> Python | Keras | Tensorflow | Open CV</p>
                         <p class="projects-description"> As part of an autonomous vehicle team, I implemented multiple object detection architectures in Python/C++ using Qt, OpenCV, Tensorflow, and Keras. Architectures included YOLO, R-CNN's, and Siam-Mask(-r). Our team followed an Agile approach throughout the entire development process</p>
                     </div>
 
@@ -178,8 +178,8 @@ class Projects extends React.Component {
                 <div class="projects-hex" type="button">
                     <img class="projects-img" src={ecor1052} alt="some"></img>
                     <div class="projects-text">
-                        <p style={{ fontSize: 50 + 'px' }}> Facial Recognition & Classification System</p>
-                        <p style={{ fontSize: 20 + 'px' }}> Raspberry Pi | Servos | Tf | Python | Pillow </p>
+                        <p class = "projects-text-title"> Facial Recognition & Classification System</p>
+                        <p class = "projects-text-blurb"> Raspberry Pi | Servos | Tf | Python | Pillow </p>
                         <p class="projects-description"> I used network-linked raspberry Pi 4's to interface with external I/O Devices csuch as displays, speakers, leds, and cameras in order to run my custom machine learning model for facial recognition and classification. The program works by taking a face and classifying it, and then using tuned PID algorithms we can maintain visual lock with a target and use a relational database to lookup the persons information. </p>
                     </div>
 
@@ -188,8 +188,8 @@ class Projects extends React.Component {
                 <div class="projects-hex" type="button">
                     <img class="projects-img" src={rnm} alt="some"></img>
                     <div class="projects-text">
-                        <p style={{ fontSize: 50 + 'px' }}> RNM 75E</p>
-                        <p style={{ fontSize: 20 + 'px' }}> KiCad | Altium | SolidWorks </p>
+                        <p class = "projects-text-title"> RNM 75E</p>
+                        <p class = "projects-text-blurb"> KiCad | Altium | SolidWorks </p>
                         <p class="projects-description"> Designed a custom keyboard PCB and case using KiCad Altium and SolidWorks </p>
                     </div>
                 </div>
@@ -197,8 +197,8 @@ class Projects extends React.Component {
                 <div class="projects-hex" type="button">
                     <img class="projects-img" src={slav} alt="some"></img>
                     <div class="projects-text">
-                        <p style={{ fontSize: 50 + 'px' }}> SLAV - Live Sound Engineer</p>
-                        <p style={{ fontSize: 20 + 'px' }}> X32 | FOH Sound Engineer </p>
+                        <p class = "projects-text-title"> SLAV - Live Sound Engineer</p>
+                        <p class = "projects-text-blurb"> X32 | FOH Sound Engineer </p>
                         <p class="projects-description"> With SLAV, I was in charge of the execution and deployment of sound related to most events, including setup, teardown, and live mixing during concerts, shows, and other activities. </p>
                     </div>
 

@@ -88,7 +88,7 @@ section {
   position: absolute;
   width: 40%;
   height: auto;
-  opacity: 35%;
+  opacity: 0.45;
 }
   
 .projects-hexagon-gallery {
@@ -121,7 +121,7 @@ section {
   flex-direction: column;
   width: 28.5vw;
   height: 28.5vw;
-  background-color: #424242;
+  background-color: #2a3336;
   -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
   clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
 }
@@ -135,13 +135,13 @@ section {
 }
 
 .projects-description {
-  margin-top: 10vw;
-  font-size: 20px;
+  margin-top: 50%;
+  font-size: 1.1vw;
 }
 
 .projects-hex p {
   color: white;
-  padding: 0 4vw;
+  padding: 0 5vw;
   margin-left: auto;
   margin-right: auto;
 
@@ -149,7 +149,8 @@ section {
 
 @keyframes projects-translate-up {
   100% {
-    transform: translateY(-15vw);
+    transform: translateY(-70%);
+    transform-origin: center;
   }
 }
 
@@ -176,7 +177,11 @@ section {
 }
 
 .projects-hex:hover {
-  background-color: black;
+  background-color: #151e21;
+}
+
+.projects-hex:hover >.projects-img {
+  opacity: 0.20;
 }
 
 .projects-hex:hover >.projects-text {
@@ -196,6 +201,14 @@ section {
   animation: transform-to-square 2s forwards;
 }
 
+.projects-text-title {
+  font-size: 2vw;
+  line-height: 135%;
+}
+
+.projects-text-blurb {
+  font-size: 1vw;
+}
 
 
 /* .projects-overlay {
