@@ -179,24 +179,8 @@ class Projects extends React.Component {
                     </div>
 
                 </div>
-                <div class="projects-hex">
-                    <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
-                    <div class = "projects-text">
-                        <p style={{fontSize: 50 + 'px'}}> Project title</p>
-                        <p style={{fontSize: 20 + 'px'}}> insert smol blurb about project here wow uwu </p>
-                        <p class = "projects-description"> aljhsdgkasj dajkhgdkajsf dhjkasfdkhgaf hgasfdkghfaskghdfa  shgdfahskd  faghsdfhgas fdhgasfd ahsd ah ada dadfasdfas fs f sfdasfasf asf asf ahjgfd jahf dghjadfhga dhadhgfa jhgdf ahjgfdhagjsfdhgasfdjhgasfd ghjasfdghjaf dkhasfdkhgasfdjhga </p>
-                    </div>
 
-                </div>
-                <div class="projects-hex">
-                    <img class = "projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
-                    <div class = "projects-text">
-                        <p style={{fontSize: 50 + 'px'}}> Project title</p>
-                        <p style={{fontSize: 20 + 'px'}}> insert smol blurb about project here wow uwu </p>
-                        <p class = "projects-description"> aljhsdgkasj dajkhgdkajsf dhjkasfdkhgaf hgasfdkghfaskghdfa  shgdfahskd  faghsdfhgas fdhgasfd ahsd ah ada dadfasdfas fs f sfdasfasf asf asf ahjgfd jahf dghjadfhga dhadhgfa jhgdf ahjgfdhagjsfdhgasfdjhgasfd ghjasfdghjaf dkhasfdkhgasfdjhga </p>
-                    </div>
 
-                </div>
            
             </section>
 

@@ -86,10 +86,8 @@ section {
 
 .projects-img {
   position: absolute;
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
+  width: auto;
+  height: 100%;
   opacity: 50%;
   z-index: -1;
 }
@@ -99,11 +97,11 @@ section {
   margin-right: auto;
   margin-left: auto;
   margin-top: 5vh;
-  max-width: 75vw;
+  max-width: 80vw;
   display: grid;
   /* grid-template-columns: auto auto auto; */
-  grid-auto-columns: 24vw;
-  grid-auto-rows: 14vw;
+  grid-auto-columns: 22.2vw;
+  grid-auto-rows: 13.3vw;
   padding-bottom: 50px;
 }
 
@@ -300,17 +298,6 @@ section {
 }
 
 .projects-hex:nth-child(8) {
-  grid-row-start: 4;
-  grid-column: 2;
-}
-
-.projects-hex:nth-child(9) {
   grid-row-start: 5;
   grid-column: 3;
 }
-
-.projects-hex:nth-child(10) {
-  grid-row-start: 4;
-  grid-column: 5 / span 2;
-}
-  
