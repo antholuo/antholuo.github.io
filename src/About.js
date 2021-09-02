@@ -69,7 +69,7 @@ class About extends React.Component {
           <section className="about-hexagon-gallery">
             <a href="/" className="about-hex">
               <p>Home</p>
-            </a>"
+            </a>
             <a href="/#/work" className="about-hex">
               <p>Work Experience</p>
             </a>
@@ -83,8 +83,6 @@ class About extends React.Component {
                             rel="noopener noreferrer">
               <p>Github</p>
             </a>
-
-
           </section>
         </div>
       </>

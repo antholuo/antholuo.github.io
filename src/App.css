@@ -227,7 +227,9 @@
   display: flex;
   width: 10vw;
   height: 10vw;
-  background-color: #424242;
+  /* background-color: #2173d1c2;
+   */
+   background: linear-gradient(#d68080, #7279c5);
   -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
   clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
 }

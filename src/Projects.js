@@ -111,19 +111,19 @@ class Projects extends React.Component {
     // and then on click the bg image turns grey or wtv and the outline of the hexagon slowly zooms outwards to fill the entire screen with grey
     // and then you arrive at your new project page !
 
-    constructor(props) {
-        super(props);
-        this.addActiveClass = this.addActiveClass.bind(this);
-        this.state = {
-            active: false,
-        };
-    }
+    // constructor(props) {
+    //     super(props);
+    //     this.addActiveClass = this.addActiveClass.bind(this);
+    //     this.state = {
+    //         active: false,
+    //     };
+    // }
 
-    toggleClass() {
-        const currentState = this.state.active;
-        this.setState({active: !currentState});
+    // toggleClass() {
+    //     const currentState = this.state.active;
+    //     this.setState({active: !currentState});
 
-    };
+    // };
 
     render() {
         return (
