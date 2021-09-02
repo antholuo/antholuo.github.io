@@ -71,7 +71,7 @@ class About extends React.Component {
               <p>Home</p>
             </a>
             <a href="/#/work" className="about-hex">
-              <p>Work Experience</p>
+              <p>Work</p>
             </a>
             <a href="/#/projects" className="about-hex">
               <p>Projects</p>
