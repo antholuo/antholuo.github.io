@@ -57,12 +57,9 @@ class Home extends React.Component {
                         </p>
                         <Container>
                             <Row>
-                                <Col md={4}><br></br></Col>
-                                <Col md={2}><Button variant="outline-dark" size="sm" as={Link} to="/work">Professional Experience</Button>
+                                <Col>
+                                Resume | About | Projects | Professional Experience
                                 </Col>
-                                <Col md={2}><Button variant="outline-dark" size="" as={Link} to="/resume">Resume</Button>
-                                </Col>
-
                             </Row>
                         </Container>
                         <a
