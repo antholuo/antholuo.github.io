@@ -86,8 +86,8 @@ section {
 
 .projects-img {
   position: absolute;
-  width: auto;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   opacity: 50%;
   z-index: -1;
 }
