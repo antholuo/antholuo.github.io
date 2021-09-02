@@ -64,16 +64,20 @@ class About extends React.Component {
         <div>
           <section className="about-hexagon-gallery">
             <div className="about-hex">
-              <p>Projects</p>
+              <p>Home</p>
             </div>
             <div className="about-hex">
               <p>Work Experience</p>
             </div>
             <div className="about-hex">
+              <p>Projects</p>
+            </div>
+            <div className="about-hex">
               <p>Resume</p>
             </div>
-            <div className="about-hex"></div>
-            <div className="about-hex"></div>
+            <div className="about-hex">
+              <p>Github</p>
+            </div>
           </section>
         </div>
       </>
