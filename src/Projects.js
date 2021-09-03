@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 
 import './Projects.css';
 
@@ -30,109 +30,58 @@ import ece106 from './media/proj/ece106.jpg';
 
 
 class Projects extends React.Component {
-    /*render() {
-        return (
-            <Container className="Container">
-                <Row></Row>
-                <Row className="justify-content-sm-center">
-                    <Col>
-                        <p className="work-header">Company One</p>
-                        <p className="work-info-l">
-                            Year, Month - Year, Month
-                        </p>
-                    </Col>
-                    <Col>
-                    <p className="work-header">Position One</p>
-                    Info one
-                    </Col>
-                </Row>
-                <Row>
-                </Row>
-                <Row>
-                    <Col>ESNTUIDAENSIDOE HTSDI TOEUHSDI  TSOEDITSHOEDITSAODITHSOED TSF>PT HIDOETI DOEHTSID  TSOHDITSOE DI TSOEHDI  TSHODI TS OPEDITSOD I TNS </Col>
-                </Row>
-            </Container>
-        )
-                        /*<section>
-                <div class="project-hexaline"> 
-
-                    <div class="project-hexa">
-                        <span class="project-hexa_text">Toutes nos Créations</span>
-                    </div>
-                    <div class="project-hexa">
-                        <span class="project-hexa_text">Toutes nos Créations</span>
-                    </div>
-                </div>
-
-
-                <div class="project-hexaline">
-                <div class="project-hexa">
-                        <span class="project-hexa_text">Aller sur le Forum</span>
-                    </div>
-                    <div class="project-hexa">
-                        <span class="project-hexa_text">Aller sur le Forum</span>
-                    </div>
-
-                    <div class="project-hexa">
-                        <span class="project-hexa_text">Notre Philosophie</span>
-                    </div>
-
-                </div>
-
-
-                <div class="project-hexaline">
-                    <div class="project-hexa">
-                        <span class="project-hexa_text">Inscription<br/>Connexion</span>
-                    </div>
-                    <div class="project-hexa">
-                        <span class="project-hexa_text">Equipe d'HexaDev</span>
-                    </div>
-                </div>
-
-               
-                <div class="project-hexaline">
-                <div class="project-hexa">
-                        <span class="project-hexa_text">Aller sur le Forum</span>
-                    </div>
-                    <div class="project-hexa">
-                        <span class="project-hexa_text">Aller sur le Forum</span>
-                    </div>
-
-                    <div class="project-hexa">
-                        <span class="project-hexa_text">Notre Philosophie</span>
-                    </div>
-
-                </div>
-                </section> 
-    }*/
 
     // hexagon is a border/outline thing and there's an image inside with a project title
     // and then on hover the image darkens and the title slides up and away and info about the project slides up
     // and then on click the bg image turns grey or wtv and the outline of the hexagon slowly zooms outwards to fill the entire screen with grey
     // and then you arrive at your new project page !
 
-    // constructor(props) {
-    //     super(props);
-    //     this.addActiveClass = this.addActiveClass.bind(this);
-    //     this.state = {
-    //         active: false,
-    //     };
+
+    // state = {active: false};
+    // handleClick = () => {
+    //     this.setState(currentState => {
+    //         return {active: !currentState.active};
+    //     });
     // }
+    testing() {
+        alert('hello!')
 
-    // toggleClass() {
-    //     const currentState = this.state.active;
-    //     this.setState({active: !currentState});
+        return (
+            <container>
+            </container>
+        )
 
-    // };
+    }
+
+    state = { isActive: false };
+
+    handleToggle = () => {
+        this.setState({ isActive: !this.state.isActive });
+    };
 
     render() {
+        const isActive = this.state.isActive;
+  
         return (
             <body>
-            <div class = "projects-white-box"></div>
-            <div class = "projects-open-hex"></div>
+                <div className = {isActive ? "projects-open-hex-wrapper": null}>
+                <div className = {isActive ? "projects-open-hex" : null}>
+                    {isActive? <section class = "projects-onclick-hex">
+                        <div class = "projects-onclick-img">
+                            INSERT IMAGE HERE
+                        </div>
+
+                        <div class = "projects-onclick-text">
+                            title and text
+                        </div>
+                    </section>: null}
+                </div> 
+            </div>
+
+            <div className = {isActive ? "projects-white-box" :null} type = "button" onClick = {this.handleToggle}></div>
 
             <section class="projects-hexagon-gallery">
-                <div class="projects-hex" type="button">
+                <div class="projects-hex" type="button" onClick={this.handleToggle}>
                     <img class="projects-img" src={spike} alt="some"></img>
                     <div class="projects-text">
                         <p class = "projects-text-title"> WARG - spike</p>
