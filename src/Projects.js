@@ -64,15 +64,20 @@ class Projects extends React.Component {
   
         return (
             <body>
+                
                 <div className = {isActive ? "projects-open-hex-wrapper": null}>
                 <div className = {isActive ? "projects-open-hex" : null}>
                     {isActive? <section class = "projects-onclick-hex">
-                        <div class = "projects-onclick-img">
-                            INSERT IMAGE HERE
-                        </div>
+                        <img class = "projects-onclick-img" src={spike} alt="some">
+                            {/* <img class = "scream" src={spike} alt="some"></img>                         */}
+                        </img>
 
                         <div class = "projects-onclick-text">
-                            title and text
+                            <p class = "title"> project title </p>
+                            <p class = "date"> date - date</p>
+                            <p class = "skills"> skill skill skill skill</p>
+                            <hr class = "line"></hr>
+                            <p class = "body-text">  aghdfghad ahdfahgdhagdfghasfd hafdhafdhad a asdfhasdfha ahsgfd hagdhadfhas ahsfdahjsg alkjsdh aj asgdjahsgdja  adfa jd aj jada dahdfahdf aakja jdfakdfakhgf</p>
                         </div>
                     </section>: null}
                 </div> 
