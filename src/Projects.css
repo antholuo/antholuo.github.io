@@ -94,7 +94,7 @@ section {
   margin-top: -20vh;
   width: 100vw;
   height: 120vh;
-  background-color: white;
+  background-color: rgb(218, 218, 218);
   z-index: 9;
   opacity: 0;
   animation: opacity-change 2s forwards;
@@ -102,14 +102,15 @@ section {
 }
 
 .projects-open-hex-wrapper {
-  width: 10%;
-  height: 10%;
+  width: 10.5%;
+  height: 8%;
   z-index: 10;
   opacity: 0;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  transition-duration: 2s;
+  transform: translate(-50%, -50%) scale(8);
+  background-color: white;
+  transition-duration: 1.5s;
   animation: big-hexagon 1s forwards;
   /* -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
   clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%); */
@@ -117,75 +118,103 @@ section {
 }
 
 .projects-open-hex {
-  position: absolute;
-  height: 100%;
-  width: 100%;
+  position: fixed;
+  height: 64%;
+  width: 84%;
+  z-index: 10;
   background-color: white;
-  transform: translate(-50%, -50%) scale(8);
-  transition-duration: 2s;
+  transform: translate(-50%, -50%);
   opacity: 0;
   top: 50%;
   left: 50%;
-  animation: big-hexagon 1s forwards;
+  animation-delay: 1.2s !important;
+  animation: big-hexagon 0.1s forwards;
   box-shadow: 3px 5px 5px 1px rgba(129, 129, 129, 0.5);
-  border-radius: 4px;
+  /* border-radius: 4px; */
 }
 
 .projects-onclick-hex {
   position: relative;
+  height: 100%;
   display: flex;
+  align-items: stretch;
   flex: column;
 }
 .projects-onclick-img {
-  width: 34%;
-  height: 100%;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+  position: relative;
+  width: 46%;
   object-fit: cover;
-  vertical-align: center;
   font-size: 0.5vw;
   margin: 0 auto;
   background-color: khaki;
-  border-top-left-radius: 4px;
+  /* border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px; */
 }
 
-.projects-onclick-text {
+.projects-clip {
+  position: absolute;
+  height: 100%;
+  width: 47%;
+  background-color: white;
+  /* clip-path: polygon(2.5% 0, 2.5% 80%, 30% 80%, 30% 0, 32.5% 0, 32.5% 40%, 65% 40%, 65% 0, 100% 0, 100% 100%, 96% 100%, 96% 20%, 67.5% 20%, 67.5% 100%, 65% 100%, 65% 42.5%, 32.5% 42.5%, 32.5% 100%, 0 100%, 0 0); */
+  clip-path: polygon(6.5% 0, 6.5% 75%, 35.5% 75%, 35.5% 0, 38% 0, 38% 40%, 67% 40%, 67% 0, 100% 0, 100% 100%, 98% 100%, 98% 25%, 69.5% 25%, 69.5% 100%, 67% 100%, 67% 42.5%, 38% 42.5%, 38% 100%, 0 100%, 0 0);
+  clip-path: polygon(6.5% 0, 6.5% 75%, 35.5% 75%, 35.5% 0, 38% 0, 38% 40%, 67% 40%, 67% 0, 100% 0, 100% 100%, 98% 100%, 98% 25%, 69.5% 25%, 69.5% 100%, 67% 100%, 67% 42.5%, 38% 42.5%, 38% 100%, 0 100%, 0 0);
 
-  width: 63%;
-  text-align: center;
-  margin: 2% 2% 0% 2%;
-  padding: 0 0.4vw;
+}
+
+
+.projects-onclick-text {
+  margin: 7vw 5vw 7vw 5vw;
+  width: 50%;
+  text-align: left;
 
 }
 
 .projects-onclick-text .title {
-
-  font-size: 6px;
-  margin-bottom: 2%;
-  margin-top: 2%;
+  font-size: 50px;
+  margin: -5px 0 0 0;
+  font-weight: 400 !important;
 
 }
 
 .projects-onclick-text .date {
-  font-size: 2px;
-  margin-bottom: 2%;
-
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  text-align: center;
+  display: inline-block;
+  border-left: thick solid powderblue;
+  border-right: thick solid powderblue;
+  background-color: rgb(241, 241, 241);
 }
 
 .projects-onclick-text .skills {
-  font-size: 2px;
+  font-size: 17px;
   margin-bottom: 3%;
-
+  margin-top: 23%;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  font-weight: 500;
+  padding-left: 4%;
+  padding-right: 3%;
+  background-color: powderblue;
 }
 
 .projects-onclick-text .line {
   margin-bottom: 3%;
-  margin-top: 2%;
+  margin-top: 0%;
   height: 1.5px;
-  transform: scaleY(0.1);
+  color: powderblue;
+  opacity: 1;
  
 }
 
 .projects-onclick-text .body-text {
-  font-size: 2.2px;
+  font-size: 15px;
+  margin-bottom: -20%;
 }
 
 .projects-hexagon-gallery {
@@ -257,7 +286,7 @@ section {
     opacity: 0;
   }
   100% {
-    opacity: 0.4;
+    opacity: 0.6;
   }
 }
 

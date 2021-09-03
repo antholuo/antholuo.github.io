@@ -65,23 +65,26 @@ class Projects extends React.Component {
         return (
             <body>
                 
-                <div className = {isActive ? "projects-open-hex-wrapper": null}>
+                <div className = {isActive ? "projects-open-hex-wrapper": null}></div>
                 <div className = {isActive ? "projects-open-hex" : null}>
                     {isActive? <section class = "projects-onclick-hex">
                         <img class = "projects-onclick-img" src={spike} alt="some">
-                            {/* <img class = "scream" src={spike} alt="some"></img>                         */}
                         </img>
+                        <div class = "projects-clip"></div>
+
 
                         <div class = "projects-onclick-text">
-                            <p class = "title"> project title </p>
                             <p class = "date"> date - date</p>
-                            <p class = "skills"> skill skill skill skill</p>
+
+                            <p class = "title"> PORJECT TITKLE </p>
                             <hr class = "line"></hr>
-                            <p class = "body-text">  aghdfghad ahdfahgdhagdfghasfd hafdhafdhad a asdfhasdfha ahsgfd hagdhadfhas ahsfdahjsg alkjsdh aj asgdjahsgdja  adfa jd aj jada dahdfahdf aakja jdfakdfakhgf</p>
+                            <p class = "body-text">  aghdfghad ahdfahgdhagdfghasfd hafdhafdhad a asdfhasdfha ahsgfd hagdhadfhas ahsfdahjsg alkjsdh aj asgdjahsgdja dafgdafdhgafdghafdhfa adfa jd aj jada dahdfahdf aakja jdfakdfakhgf</p>
+                            <p class = "skills"> SKILL SKILL SKILL SKILL</p>
+
                         </div>
                     </section>: null}
                 </div> 
-            </div>
+           
 
             <div className = {isActive ? "projects-white-box" :null} type = "button" onClick = {this.handleToggle}></div>
 
