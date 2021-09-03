@@ -43,36 +43,85 @@ class Projects extends React.Component {
     //         return {active: !currentState.active};
     //     });
     // }
-    testing() {
-        alert('hello!')
 
-        return (
-            <container>
-            </container>
-        )
-
+    constructor(props) {
+        super(props)
+        this.state = {
+            hex1Active: false,
+            hex2Active: false,
+            hex3Active: false,
+            hex4Active: false,
+            hex5Active: false,
+            hex6Active: false,
+            hex7Active: false,
+            hex8Active: false,
+            hex9Active: false
+        }
     }
 
-    state = { isActive: false };
+    // state = { hex1Active: false };
 
-    handleToggle = () => {
-        this.setState({ isActive: !this.state.isActive });
+    handleToggle(toggler, state) {
+        this.setState({ [toggler]: state });
     };
 
     render() {
-        const isActive = this.state.isActive;
+        const hex1Active = this.state.hex1Active;
+        const hex2Active = this.state.hex2Active;
+        const hex3Active = this.state.hex3Active;
+        const hex4Active = this.state.hex4Active;
+        const hex5Active = this.state.hex5Active;
+        const hex6Active = this.state.hex6Active;
+        const hex7Active = this.state.hex7Active;
+        const hex8Active = this.state.hex8Active;
+        const hex9Active = this.state.hex9Active;
+
+
   
         return (
-            <body>
-                
-                <div className = {isActive ? "projects-open-hex-wrapper": null}></div>
-                <div className = {isActive ? "projects-open-hex" : null}>
-                    {isActive? <section class = "projects-onclick-hex">
-                        <img class = "projects-onclick-img" src={spike} alt="some">
+            <body>  
+                <div className = {hex1Active ? "projects-open-hex-wrapper": null}></div>
+                <div className = {hex1Active ? "projects-open-hex" : null}>
+                    {hex1Active? <section class = "projects-onclick-hex">
+                        <img class = "projects-onclick-img"  src={spike} alt="some">
                         </img>
                         <div class = "projects-clip"></div>
+                        <div class = "projects-onclick-text">
+                            <p class = "date"> date - date</p>
 
+                            <p class = "title"> WARG - spike </p>
+                            <hr class = "line"></hr>
+                            <p class = "body-text">  aghdfghad ahdfahgdhagdfghasfd hafdhafdhad a asdfhasdfha ahsgfd hagdhadfhas ahsfdahjsg alkjsdh aj asgdjahsgdja dafgdafdhgafdghafdhfa adfa jd aj jada dahdfahdf aakja jdfakdfakhgf</p>
+                            <p class = "skills"> c++  |  STM Cube Ide  |  git</p>
+                        </div>
+                    </section>: null}
+                </div> 
+            <div className = {hex1Active ? "projects-white-box" :null} type = "button" onClick = {() => this.handleToggle('hex1Active', false)}></div>
 
+            <div className = {hex2Active ? "projects-open-hex-wrapper": null}></div>
+                <div className = {hex2Active ? "projects-open-hex" : null}>
+                    {hex2Active? <section class = "projects-onclick-hex">
+                        <img class = "projects-onclick-img"  src={robo} alt="some">
+                        </img>
+                        <div class = "projects-clip"></div>
+                        <div class = "projects-onclick-text">
+                            <p class = "date"> date - date</p>
+
+                            <p class = "title"> 2381 Robotics </p>
+                            <hr class = "line"></hr>
+                            <p class = "body-text">  aghdfghad ahdfahgdhagdfghasfd hafdhafdhad a asdfhasdfha ahsgfd hagdhadfhas ahsfdahjsg alkjsdh aj asgdjahsgdja dafgdafdhgafdghafdhfa adfa jd aj jada dahdfahdf aakja jdfakdfakhgf</p>
+                            <p class = "skills"> C | Adaptive Pure Pursuit | Inventor</p>
+                        </div>
+                    </section>: null}
+                </div> 
+            <div className = {hex2Active ? "projects-white-box" :null} type = "button" onClick = {() => this.handleToggle('hex2Active', false)}></div>
+
+            <div className = {hex3Active ? "projects-open-hex-wrapper": null}></div>
+                <div className = {hex3Active ? "projects-open-hex" : null}>
+                    {hex3Active? <section class = "projects-onclick-hex">
+                        <img class = "projects-onclick-img"  src={hex} alt="some">
+                        </img>
+                        <div class = "projects-clip"></div>
                         <div class = "projects-onclick-text">
                             <p class = "date"> date - date</p>
 
@@ -80,16 +129,124 @@ class Projects extends React.Component {
                             <hr class = "line"></hr>
                             <p class = "body-text">  aghdfghad ahdfahgdhagdfghasfd hafdhafdhad a asdfhasdfha ahsgfd hagdhadfhas ahsfdahjsg alkjsdh aj asgdjahsgdja dafgdafdhgafdghafdhfa adfa jd aj jada dahdfahdf aakja jdfakdfakhgf</p>
                             <p class = "skills"> SKILL SKILL SKILL SKILL</p>
-
                         </div>
                     </section>: null}
                 </div> 
-           
+            <div className = {hex3Active ? "projects-white-box" :null} type = "button" onClick = {() => this.handleToggle('hex3Active', false)}></div>
 
-            <div className = {isActive ? "projects-white-box" :null} type = "button" onClick = {this.handleToggle}></div>
+            <div className = {hex4Active ? "projects-open-hex-wrapper": null}></div>
+                <div className = {hex4Active ? "projects-open-hex" : null}>
+                    {hex4Active? <section class = "projects-onclick-hex">
+                        <img class = "projects-onclick-img"  src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some">
+                        </img>
+                        <div class = "projects-clip"></div>
+                        <div class = "projects-onclick-text">
+                            <p class = "date"> date - date</p>
+
+                            <p class = "title"> PORJECT TITKLE </p>
+                            <hr class = "line"></hr>
+                            <p class = "body-text">  aghdfghad ahdfahgdhagdfghasfd hafdhafdhad a asdfhasdfha ahsgfd hagdhadfhas ahsfdahjsg alkjsdh aj asgdjahsgdja dafgdafdhgafdghafdhfa adfa jd aj jada dahdfahdf aakja jdfakdfakhgf</p>
+                            <p class = "skills"> SKILL SKILL SKILL SKILL</p>
+                        </div>
+                    </section>: null}
+                </div> 
+            <div className = {hex4Active ? "projects-white-box" :null} type = "button" onClick = {() => this.handleToggle('hex4Active', false)}></div>
+
+            <div className = {hex5Active ? "projects-open-hex-wrapper": null}></div>
+                <div className = {hex5Active ? "projects-open-hex" : null}>
+                    {hex5Active? <section class = "projects-onclick-hex">
+                        <img class = "projects-onclick-img"  src={ece106} alt="some">
+                        </img>
+                        <div class = "projects-clip"></div>
+                        <div class = "projects-onclick-text">
+                            <p class = "date"> date - date</p>
+
+                            <p class = "title"> PORJECT TITKLE </p>
+                            <hr class = "line"></hr>
+                            <p class = "body-text">  aghdfghad ahdfahgdhagdfghasfd hafdhafdhad a asdfhasdfha ahsgfd hagdhadfhas ahsfdahjsg alkjsdh aj asgdjahsgdja dafgdafdhgafdghafdhfa adfa jd aj jada dahdfahdf aakja jdfakdfakhgf</p>
+                            <p class = "skills"> SKILL SKILL SKILL SKILL</p>
+                        </div>
+                    </section>: null}
+                </div> 
+            <div className = {hex5Active ? "projects-white-box" :null} type = "button" onClick = {() => this.handleToggle('hex5Active', false)}></div>
+
+            <div className = {hex6Active ? "projects-open-hex-wrapper": null}></div>
+                <div className = {hex6Active ? "projects-open-hex" : null}>
+                    {hex6Active? <section class = "projects-onclick-hex">
+                        <img class = "projects-onclick-img"  src={roborace} alt="some">
+                        </img>
+                        <div class = "projects-clip"></div>
+                        <div class = "projects-onclick-text">
+                            <p class = "date"> date - date</p>
+
+                            <p class = "title"> PORJECT TITKLE </p>
+                            <hr class = "line"></hr>
+                            <p class = "body-text">  aghdfghad ahdfahgdhagdfghasfd hafdhafdhad a asdfhasdfha ahsgfd hagdhadfhas ahsfdahjsg alkjsdh aj asgdjahsgdja dafgdafdhgafdghafdhfa adfa jd aj jada dahdfahdf aakja jdfakdfakhgf</p>
+                            <p class = "skills"> SKILL SKILL SKILL SKILL</p>
+                        </div>
+                    </section>: null}
+                </div> 
+            <div className = {hex6Active ? "projects-white-box" :null} type = "button" onClick = {() => this.handleToggle('hex6Active', false)}></div>
+
+            <div className = {hex7Active ? "projects-open-hex-wrapper": null}></div>
+                <div className = {hex7Active ? "projects-open-hex" : null}>
+                    {hex7Active? <section class = "projects-onclick-hex">
+                        <img class = "projects-onclick-img"  src={ecor1052} alt="some">
+                        </img>
+                        <div class = "projects-clip"></div>
+                        <div class = "projects-onclick-text">
+                            <p class = "date"> date - date</p>
+
+                            <p class = "title"> PORJECT TITKLE </p>
+                            <hr class = "line"></hr>
+                            <p class = "body-text">  aghdfghad ahdfahgdhagdfghasfd hafdhafdhad a asdfhasdfha ahsgfd hagdhadfhas ahsfdahjsg alkjsdh aj asgdjahsgdja dafgdafdhgafdghafdhfa adfa jd aj jada dahdfahdf aakja jdfakdfakhgf</p>
+                            <p class = "skills"> SKILL SKILL SKILL SKILL</p>
+                        </div>
+                    </section>: null}
+                </div> 
+            <div className = {hex7Active ? "projects-white-box" :null} type = "button" onClick = {() => this.handleToggle('hex7Active', false)}></div>
+
+            <div className = {hex8Active ? "projects-open-hex-wrapper": null}></div>
+                <div className = {hex8Active ? "projects-open-hex" : null}>
+                    {hex8Active? <section class = "projects-onclick-hex">
+                        <img class = "projects-onclick-img"  src={rnm} alt="some">
+                        </img>
+                        <div class = "projects-clip"></div>
+                        <div class = "projects-onclick-text">
+                            <p class = "date"> date - date</p>
+
+                            <p class = "title"> PORJECT TITKLE </p>
+                            <hr class = "line"></hr>
+                            <p class = "body-text">  aghdfghad ahdfahgdhagdfghasfd hafdhafdhad a asdfhasdfha ahsgfd hagdhadfhas ahsfdahjsg alkjsdh aj asgdjahsgdja dafgdafdhgafdghafdhfa adfa jd aj jada dahdfahdf aakja jdfakdfakhgf</p>
+                            <p class = "skills"> SKILL SKILL SKILL SKILL</p>
+                        </div>
+                    </section>: null}
+                </div> 
+            <div className = {hex8Active ? "projects-white-box" :null} type = "button" onClick = {() => this.handleToggle('hex8Active', false)}></div>
+
+            <div className = {hex9Active ? "projects-open-hex-wrapper": null}></div>
+                <div className = {hex9Active ? "projects-open-hex" : null}>
+                    {hex9Active? <section class = "projects-onclick-hex">
+                        <img class = "projects-onclick-img"  src={slav} alt="some">
+                        </img>
+                        <div class = "projects-clip"></div>
+                        <div class = "projects-onclick-text">
+                            <p class = "date"> date - date</p>
+
+                            <p class = "title"> PORJECT TITKLE </p>
+                            <hr class = "line"></hr>
+                            <p class = "body-text">  aghdfghad ahdfahgdhagdfghasfd hafdhafdhad a asdfhasdfha ahsgfd hagdhadfhas ahsfdahjsg alkjsdh aj asgdjahsgdja dafgdafdhgafdghafdhfa adfa jd aj jada dahdfahdf aakja jdfakdfakhgf</p>
+                            <p class = "skills"> SKILL SKILL SKILL SKILL</p>
+                        </div>
+                    </section>: null}
+                </div> 
+            <div className = {hex9Active ? "projects-white-box" :null} type = "button" onClick = {() => this.handleToggle('hex9Active', false)}></div>
+
+
+
 
             <section class="projects-hexagon-gallery">
-                <div class="projects-hex" type="button" onClick={this.handleToggle}>
+                <div class="projects-hex" type="button" onClick={() => this.handleToggle('hex1Active', true)}>
                     <img class="projects-img" src={spike} alt="some"></img>
                     <div class="projects-text">
                         <p class = "projects-text-title"> WARG - spike</p>
@@ -101,7 +258,7 @@ class Projects extends React.Component {
                     </div> */}
                 </div>
                 
-                <div class="projects-hex" type="button">
+                <div class="projects-hex" type="button" onClick={() => this.handleToggle('hex2Active', true)}>
                     <img class="projects-img" src={robo} alt="some"></img>
                     <div class="projects-text">
                         <p class = "projects-text-title"> 2381 Robotics</p>
@@ -113,7 +270,7 @@ class Projects extends React.Component {
 
                 
 
-                <div class="projects-hex" type="button">
+                <div class="projects-hex" type="button" onClick={() => this.handleToggle('hex3Active', true)}>
                     <img class="projects-img" src={hex} alt="some"></img>
                     <div class="projects-text">
                         <p class = "projects-text-title"> WARG - 2022 Plane</p>
@@ -123,7 +280,7 @@ class Projects extends React.Component {
 
                 </div>
                 
-                <div class="projects-hex" type="button">
+                <div class="projects-hex" type="button" onClick={() => this.handleToggle('hex4Active', true)}>
                     <img class="projects-img" src="https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?cs=srgb&dl=aerial-aerial-photo-aerial-photography-1421264.jpg&fm=jpg" alt="some"></img>
                     <div class="projects-text">
                         <p class = "projects-text-title"> AI Music Generator</p>
@@ -133,7 +290,7 @@ class Projects extends React.Component {
 
                 </div>
 
-                <div class="projects-hex" type="button">
+                <div class="projects-hex" type="button" onClick={() => this.handleToggle('hex5Active', true)}>
                     <img class="projects-img" src={ece106} alt="some"></img>
                     <div class="projects-text">
                         <p class = "projects-text-title"> Fringe Field Capacitance Rainfall Senor</p>
@@ -142,7 +299,7 @@ class Projects extends React.Component {
                     </div>
 
                 </div>
-                <div class="projects-hex" type="button">
+                <div class="projects-hex" type="button" onClick={() => this.handleToggle('hex6Active', true)}>
                     <img class="projects-img" src={roborace} alt="some"></img>
                     <div class="projects-text">
                         <p class = "projects-text-title"> Deep Learning Object Detector</p>
@@ -152,7 +309,7 @@ class Projects extends React.Component {
 
                 </div>
 
-                <div class="projects-hex" type="button">
+                <div class="projects-hex" type="button" onClick={() => this.handleToggle('hex7Active', true)}>
                     <img class="projects-img" src={ecor1052} alt="some"></img>
                     <div class="projects-text">
                         <p class = "projects-text-title"> Facial Recognition & Classification System</p>
@@ -162,7 +319,7 @@ class Projects extends React.Component {
 
                 </div>
 
-                <div class="projects-hex" type="button">
+                <div class="projects-hex" type="button" onClick={() => this.handleToggle('hex8Active', true)}>
                     <img class="projects-img" src={rnm} alt="some"></img>
                     <div class="projects-text">
                         <p class = "projects-text-title"> RNM 75E</p>
@@ -171,7 +328,7 @@ class Projects extends React.Component {
                     </div>
                 </div>
 
-                <div class="projects-hex" type="button">
+                <div class="projects-hex" type="button" onClick={() => this.handleToggle('hex9Active', true)}>
                     <img class="projects-img" src={slav} alt="some"></img>
                     <div class="projects-text">
                         <p class = "projects-text-title"> SLAV - Live Sound Engineer</p>

@@ -110,7 +110,7 @@ section {
   left: 50%;
   transform: translate(-50%, -50%) scale(8);
   background-color: white;
-  transition-duration: 1.5s;
+  transition-duration: 1s;
   animation: big-hexagon 1s forwards;
   /* -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
   clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%); */
@@ -127,9 +127,9 @@ section {
   opacity: 0;
   top: 50%;
   left: 50%;
-  animation-delay: 1.2s !important;
-  animation: big-hexagon 0.1s forwards;
-  box-shadow: 3px 5px 5px 1px rgba(129, 129, 129, 0.5);
+  animation-delay: 1s !important;
+  animation: big-hexagon 1s forwards;
+  box-shadow: 8px 8px 20px 5px rgba(129, 129, 129, 0.5);
   /* border-radius: 4px; */
 }
 
@@ -141,14 +141,11 @@ section {
   flex: column;
 }
 .projects-onclick-img {
-  margin-top: 2.5px;
-  margin-bottom: 2.5px;
   position: relative;
-  width: 46%;
+  width: 50%;
   object-fit: cover;
   font-size: 0.5vw;
   margin: 0 auto;
-  background-color: khaki;
   /* border-top-left-radius: 4px;
   border-bottom-left-radius: 4px; */
 }
@@ -156,24 +153,23 @@ section {
 .projects-clip {
   position: absolute;
   height: 100%;
-  width: 47%;
+  width: 51%;
   background-color: white;
   /* clip-path: polygon(2.5% 0, 2.5% 80%, 30% 80%, 30% 0, 32.5% 0, 32.5% 40%, 65% 40%, 65% 0, 100% 0, 100% 100%, 96% 100%, 96% 20%, 67.5% 20%, 67.5% 100%, 65% 100%, 65% 42.5%, 32.5% 42.5%, 32.5% 100%, 0 100%, 0 0); */
-  clip-path: polygon(6.5% 0, 6.5% 75%, 35.5% 75%, 35.5% 0, 38% 0, 38% 40%, 67% 40%, 67% 0, 100% 0, 100% 100%, 98% 100%, 98% 25%, 69.5% 25%, 69.5% 100%, 67% 100%, 67% 42.5%, 38% 42.5%, 38% 100%, 0 100%, 0 0);
-  clip-path: polygon(6.5% 0, 6.5% 75%, 35.5% 75%, 35.5% 0, 38% 0, 38% 40%, 67% 40%, 67% 0, 100% 0, 100% 100%, 98% 100%, 98% 25%, 69.5% 25%, 69.5% 100%, 67% 100%, 67% 42.5%, 38% 42.5%, 38% 100%, 0 100%, 0 0);
+  clip-path: polygon(5.5% 0, 5.5% 75%, 35.5% 75%, 35.5% 0, 37.5% 0, 37.5% 40%, 67.5% 40%, 67.5% 0, 100% 0, 100% 25%, 69.5% 25%, 69.5% 100%, 67.5% 100%, 67.5% 42.5%, 37.5% 42.5%, 37.5% 100%, 0 100%, 0 0);
 
 }
 
 
 .projects-onclick-text {
-  margin: 7vw 5vw 7vw 5vw;
+  margin: 6vw 5vw 6vw 5vw;
   width: 50%;
   text-align: left;
 
 }
 
 .projects-onclick-text .title {
-  font-size: 50px;
+  font-size: 3.4vw;
   margin: -5px 0 0 0;
   font-weight: 400 !important;
 
