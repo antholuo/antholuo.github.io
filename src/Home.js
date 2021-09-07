@@ -39,6 +39,11 @@ class Home extends React.Component {
                             </header>
                         </Row>
                         <Row>
+                            <header>
+                                I work mainly in Firmware and Embedded Systems, but I'm learning about Control Systems too!
+                            </header>
+                        </Row>
+                        <Row style={{ padding: 40}}>
                             <div class="chevron-container">
                                 <div class="chevron"></div>
                                 <div class="chevron"></div>
