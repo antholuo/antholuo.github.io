@@ -66,7 +66,15 @@ class Work extends React.Component {
                     <div class="description">
                         <p class="header"> Co-op: ASIC/FPGA Development </p>
                         <p>
-                            I am currently working on the design and development of Ciena's next-generation Optical ASIC!
+                            As part of my second term working on the design and development of Ciena's optical ASIC, most of my tasks revolved around designing subchip-level RTL code using System Verilog.
+                            <ul>
+                              <li> Implemented new translational subchip layer for register accesses between Ciena internal protocol and external (generic) register protocols, including design for backpressure and flow control, increasing bandwidth by 20 times.</li>
+                              <li> Created subchip Serdes onramp/offramp logic within 400G subchip. </li>
+                              <li> Used a variety of tools such as Questa, Synopsys DVE & Simulation to verify read/write timings. </li>
+                              <li> Wrote basic UVM tests to read, write, and mirror data to the registers. </li>
+                              <li> Used tools such as WaveDrom, Git, Vim, Synopsys VCS, Verilog AUTO, and gradle throughout the work term. </li>
+                              <li> Worked in Fedora Linux </li>
+                            </ul>
                         </p>
                         <a href="https://www.ciena.ca/">Ciena Canada |  https://www.ciena.ca/</a>
                     </div>

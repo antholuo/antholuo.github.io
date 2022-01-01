@@ -40,7 +40,7 @@ class Home extends React.Component {
                         </Row>
                         <Row>
                             <header>
-                                I work mainly in Firmware and Embedded Systems, but I'm learning about Control Systems too!
+                                Most of my experience is in ASIC Design, but I'm working on a lot of Firmware and Controls projects as well!
                             </header>
                         </Row>
                         <Row style={{ padding: 40}}>
@@ -58,7 +58,7 @@ class Home extends React.Component {
                     <header className="light-header">
                         <img src={logo} className="App-logo" alt="logo" />
                         <p style={{fontSize: 35}}>
-                            This site is currently in progress :D. Expect updates regularly! Currenty functioning:
+                            This site is currently in progress. Expect updates regularly! Currenty functioning:
                         </p>
                         <Container>
                             <Row>
