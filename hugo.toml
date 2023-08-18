@@ -1,0 +1,4 @@
+baseURL = 'http://antholuo.com/'
+languageCode = 'en-us'
+title = 'Anthony Luo'
+theme = 'ananke'
