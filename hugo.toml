@@ -3,20 +3,60 @@ languageCode = "en"
 title = "Anthony Luo"
 theme = "hugo-initio"
 
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+# navigation
+[menu]
+
+  [[menu.main]]
+  name = "home"
+  url = "/"
+  weight = 1
+  
+  [[menu.main]]
+  name = "About"
+  url = "#about"
+  weight = 2
+
+  [[menu.main]]
+  name = "Experience"
+  URL = "#work"
+  weight = 3
+
+  [[menu.main]]
+  name = "Projects"
+  URL = "#projects"
+  weight = 4
+
 [params]
-    name = "Anthony Russel"
-    description = "A mystery person"
-    email = "anthony.russel42@example.com"
-    phone = "+234 23 9873237"
-    address = "234 Hidden Pond Road, Ashland City, TN 37015"
-    year = 2017
-    avatar = "images/guy.jpg"
+    name = "Anthony Luo"
+    description = "Third year ECE student at the University of Waterloo"
+    avatar = "images/pfp.jpg"
     avatarclass = "circle"
     background = ""
-    banner = "images/bg_head.jpg"
+    banner = "images/bg.jpg"
     favicon = "images/gt_favicon.png"
     DateForm = "January 2, 2006"
-    author = "Sergey Pozhilov (GetTemplate.com)"
+    author = "Anthony Luo"
+
+    sections = ["about", "education", "experience", "projects"]
 
     showSubheader = true
     showServices = true
@@ -29,24 +69,6 @@ theme = "hugo-initio"
     showFooterTextWidget = true
     showFooterFormWidget = true
 
-[[menu.main]]
-    name = "home"
-    url = "/"
-    weight = 1
-[[menu.main]]
-    name = "blog"
-    url = "/post/"
-    weight = 5
-
-[params.disqus]
-    site = "hugo-initio-site.disqus.com"
-
-[params.sharethis]
-    property = "123456789012345678901234"
-    custom = true
-
-[params.google.analytics]
-    trackerID = "GA-000000000-0"
 
 [[params.social]]
 	title = "facebook"
