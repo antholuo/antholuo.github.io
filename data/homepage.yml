@@ -63,7 +63,21 @@ portfolio:
       value: cpluscplus
       label: STM32
       value: stmicroelectronics
+      label: Python
+      value: python
+      label: ML
+      value: raspberrypi
   item:
+    - title: PEGASUS
+      image: https://media.discordapp.net/attachments/814735217838260224/1140052791449112708/full_drone.png?width=575&height=431
+      description: PEGASUS is a multi-purpose drone designed around heavy-lift and high-efficiency. Since 2023, I have been the Technical Director and primary systems integration engineer for all WARG projects! As part of the pegasus project, I managed the deployment of autonomous flight features, integration of most RF communications devices, as well as the control systems with the propulsion system! I continue to work alongside my team directors and sub-teams to put together a strong competitor for AEAC 2024.
+      link: "portfolio/pegasus"
+      tools:
+        - confluence
+        - asana
+        - python
+        - raspberrypi
+        - github
     - title: ZeroPilot
       image: https://lh3.googleusercontent.com/pw/AIL4fc9x-a5ceits4u11iOaPRqAzO_nZAUP8_qldAEpMN_Ns2ia_b9onuVTFlk7dc7tTFwe920essE_2IQdMY7iJKYFV3RWKobOCCBgKmnb4gf36wp7Ejj6UrTanjcIJvPCnRMikbrcLUuj2LPJdjq6rZQAeaElvMlmQNoMNC11QCaTL_IBtyZc65ovTbBUcZT6O7PBhBXhLQIEba5JbBoG-PMH5Clx0h-_L3wn7NcSYbPL2wuLfsxY2uAM6-B2nbXVuOQfYivv3LLLeKABQ8oyVB1clcRT6bkBJkVv02n5qQVc3ZPtr3KQWreLf8HC1PPKi4LL5fbRv52qc34zJM22aIc0dzh6PpuF-eKeq-gSd-y1G3yZDW6MTpdJhJmjy8WOaWaJOarRMgy92eFA-8-tsXFiwJBod6o0hJigfn3TQ3jm155PMHB2yfD1dJXGWhe0ss36APCHEuJeZIOPvZcXCApR65WKk1PxbzCThBtPIWit7gvf7_DxHLUKKhQDm4S20hBd4l6PN-n-EMqI08iW98_FzSt5PLVNYn1Ipv7_QeZGAX0xNEc66xoZCiuhIj7Y71KLhPMmmUnlZ1MxlP_gLKxnN8ub233djkiptFKOvtDj_CdJb-ucedsEBEhuxzd9-N-QiNB89paevvQuLypO9QhEoSVPOv16bO7Cjtle7vp6tmUrFx6Hav_0C778BXAO0FdQDHZnwjP1RDCC7D_qFDdZz8ang_MgtKwGEp-_GFoCare2f-hYUfK2ItylnGwon_9akiNi1kOsRQ8n2Gqslnr0sRNAx2tT4C-PQWLcz9U-8nZg0jXOT7lUHUjfkutwoOR5dCM7Wn7RFlGyc0HRiZroYqGu-XDGQxnWztWGe7QClZfHVjLqkvpCRkEb-stuhSuAglc9A_PdQTDpIXmHtX4A=w1743-h1307-s-no?authuser=0
       description: STM32-based flight controller, complete with FreeRTOS, attitude control, sensor fusion, state estimtion, path planning.
@@ -71,13 +85,18 @@ portfolio:
       tools:
         - cplusplus
         - stmicroelectronics
+        - asana
+        - github
     - title: Tracking Antenna
       image: https://lh3.googleusercontent.com/pw/AIL4fc9w_KBbmd43-tTp2jkg9iePWIdKnDUN-eedJd6nkWvo_HC3IAtEIRyXHisRUL0TaegWxqdNsmoOsNM7duGd9EJgNUEzGnILsFJTbYZr6uEQwKjypFbcMUokdSjYGAcd5_AIiy3y7_GBR7bFI5rI87Sqle61x2g1NVyPwBRyhsGhWfsg6v77-rwfHGQbrXEiBKEv9V5A1VMd9dA5PkWwLesBSZOXtAqb3WoOye_dsCnHNCIe3ye8a3VaLiYIXh-5bnQh1UBdl5xm1oQl8gXQTgBRXjrcXyOFrOvKVxozdngFKzRgxDgBBg3bnrBvFur_S67AWx07-hmrAoAbHDJ7BMI4QHz1uQ_a9XcOcR66tNjAflQDlzJnydD7mFOUY9HK50RYAQD3IiXGx0d3hx-z_Pvd0jYnMG3LCHfsGbUtwYiW4XHcy730hJn7UlZoSVof3fjIVIEVMPQDKqfW0JiLgU6sjQr4EdmsR6VOA6E9VBiPPilKOmuKmG016rWU6buxIrrgOrSu7J23eBx4tieeYZWAcpC7g50ObROtdthKHlbr799yqmKspmcRHtRneuzCq-nfEfyOCYlejrnvmBQbohDjJ-o4crRPhhKVw2zATeCWn3kgtl9BMnFYa5yeW6okqW1-6jJGJZeoeN_rHcWYIJlD6q4eYgw1ZNIGi0PqVbmwltktDmhRm7rrbSWAUvj5vXh6ZcqDtrcLEAVTyDxfavLHBsmhGV9W8rmH30Y99EYpsJRo3ktjPWohozT7HKjaGQcLldFgSxaHo_920GLtq7TYAVQggsjIYcc-1X_FbtVDKmmK6ZM8O776HKKPFgtzZFLL_TlGUQKAFV5xO_z8wSkeYi1AzYizJhGIT-JLyRKEomLSy4lAzEeDa3kBbwvQaOOJyaHWhPoPtcbsL6Bj6go=w1920-h1080-s-k-no?authuser=0
       description: STM32-based antenna tracker, intercepting MAVLink packets from airside to decode GPS position and track a drone using directional antennas.
+      time: Nov 2022 - Aug 2023
       link: "portfolio/tracking-antenna"
       tools:
         - cplusplus
         - stmicroelectronics
+        - asana
+        - github
 projects:
   enable: false
   item:
