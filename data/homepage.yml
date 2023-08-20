@@ -29,28 +29,56 @@ experience:
       title: Flight Controls Co-Op
       company: Beta Technologies
       duration: present
+      link: "work"
     - logo: https://images.squarespace-cdn.com/content/v1/5f8756dc4930e23c50399ae9/1602788477446-B86T31504049U97JE8BI/UntetherAI+logo.png
       title: ASIC Digital Formal Verification Co-Op
       company: Untether AI
       duration: January 2023 - April 2023
+      link: "work"
     - logo: https://images.squarespace-cdn.com/content/v1/5f8756dc4930e23c50399ae9/1602788477446-B86T31504049U97JE8BI/UntetherAI+logo.png
       title: ASIC/FPGA Diggital Verification Co-Op
       company: Untether AI
       duration: April 2022 - May 2022
+      link: "work"
     - logo: https://pbs.twimg.com/media/DHxLPMWWAAUIyfU?format=jpg&name=900x900
       title: ASIC Digital Design Co-Op
       company: Ciena
       duration: September 2021 - December 2021
+      link: "work"
     - logo: https://pbs.twimg.com/media/DHxLPMWWAAUIyfU?format=jpg&name=900x900
       title: ASIC Digital Verification Co-Op
       company: Ciena
       duration: January 2021 - April 2021
+      link: "work"
     - logo: https://www.nokia.com/sites/default/files/styles/scale_543_x_375_gallery/public/2023-02/nokia-refreshed-logo-2_1.png.webp
       title: Software Engineering Co-Op
       company: Nokia
-      duration: May 2020   - August 202
-projects:
+      duration: May 2020   - August 2020
+      link: "work"
+portfolio:
   enable: true
+  filter:
+    - label: C++
+      value: cpluscplus
+      label: STM32
+      value: stmicroelectronics
+  item:
+    - title: ZeroPilot
+      image: https://lh3.googleusercontent.com/pw/AIL4fc9x-a5ceits4u11iOaPRqAzO_nZAUP8_qldAEpMN_Ns2ia_b9onuVTFlk7dc7tTFwe920essE_2IQdMY7iJKYFV3RWKobOCCBgKmnb4gf36wp7Ejj6UrTanjcIJvPCnRMikbrcLUuj2LPJdjq6rZQAeaElvMlmQNoMNC11QCaTL_IBtyZc65ovTbBUcZT6O7PBhBXhLQIEba5JbBoG-PMH5Clx0h-_L3wn7NcSYbPL2wuLfsxY2uAM6-B2nbXVuOQfYivv3LLLeKABQ8oyVB1clcRT6bkBJkVv02n5qQVc3ZPtr3KQWreLf8HC1PPKi4LL5fbRv52qc34zJM22aIc0dzh6PpuF-eKeq-gSd-y1G3yZDW6MTpdJhJmjy8WOaWaJOarRMgy92eFA-8-tsXFiwJBod6o0hJigfn3TQ3jm155PMHB2yfD1dJXGWhe0ss36APCHEuJeZIOPvZcXCApR65WKk1PxbzCThBtPIWit7gvf7_DxHLUKKhQDm4S20hBd4l6PN-n-EMqI08iW98_FzSt5PLVNYn1Ipv7_QeZGAX0xNEc66xoZCiuhIj7Y71KLhPMmmUnlZ1MxlP_gLKxnN8ub233djkiptFKOvtDj_CdJb-ucedsEBEhuxzd9-N-QiNB89paevvQuLypO9QhEoSVPOv16bO7Cjtle7vp6tmUrFx6Hav_0C778BXAO0FdQDHZnwjP1RDCC7D_qFDdZz8ang_MgtKwGEp-_GFoCare2f-hYUfK2ItylnGwon_9akiNi1kOsRQ8n2Gqslnr0sRNAx2tT4C-PQWLcz9U-8nZg0jXOT7lUHUjfkutwoOR5dCM7Wn7RFlGyc0HRiZroYqGu-XDGQxnWztWGe7QClZfHVjLqkvpCRkEb-stuhSuAglc9A_PdQTDpIXmHtX4A=w1743-h1307-s-no?authuser=0
+      description: STM32-based flight controller, complete with FreeRTOS, attitude control, sensor fusion, state estimtion, path planning.
+      link: "portfolio/zp"
+      tools:
+        - cplusplus
+        - stmicroelectronics
+    - title: Tracking Antenna
+      image: https://lh3.googleusercontent.com/pw/AIL4fc9w_KBbmd43-tTp2jkg9iePWIdKnDUN-eedJd6nkWvo_HC3IAtEIRyXHisRUL0TaegWxqdNsmoOsNM7duGd9EJgNUEzGnILsFJTbYZr6uEQwKjypFbcMUokdSjYGAcd5_AIiy3y7_GBR7bFI5rI87Sqle61x2g1NVyPwBRyhsGhWfsg6v77-rwfHGQbrXEiBKEv9V5A1VMd9dA5PkWwLesBSZOXtAqb3WoOye_dsCnHNCIe3ye8a3VaLiYIXh-5bnQh1UBdl5xm1oQl8gXQTgBRXjrcXyOFrOvKVxozdngFKzRgxDgBBg3bnrBvFur_S67AWx07-hmrAoAbHDJ7BMI4QHz1uQ_a9XcOcR66tNjAflQDlzJnydD7mFOUY9HK50RYAQD3IiXGx0d3hx-z_Pvd0jYnMG3LCHfsGbUtwYiW4XHcy730hJn7UlZoSVof3fjIVIEVMPQDKqfW0JiLgU6sjQr4EdmsR6VOA6E9VBiPPilKOmuKmG016rWU6buxIrrgOrSu7J23eBx4tieeYZWAcpC7g50ObROtdthKHlbr799yqmKspmcRHtRneuzCq-nfEfyOCYlejrnvmBQbohDjJ-o4crRPhhKVw2zATeCWn3kgtl9BMnFYa5yeW6okqW1-6jJGJZeoeN_rHcWYIJlD6q4eYgw1ZNIGi0PqVbmwltktDmhRm7rrbSWAUvj5vXh6ZcqDtrcLEAVTyDxfavLHBsmhGV9W8rmH30Y99EYpsJRo3ktjPWohozT7HKjaGQcLldFgSxaHo_920GLtq7TYAVQggsjIYcc-1X_FbtVDKmmK6ZM8O776HKKPFgtzZFLL_TlGUQKAFV5xO_z8wSkeYi1AzYizJhGIT-JLyRKEomLSy4lAzEeDa3kBbwvQaOOJyaHWhPoPtcbsL6Bj6go=w1920-h1080-s-k-no?authuser=0
+      description: STM32-based antenna tracker, intercepting MAVLink packets from airside to decode GPS position and track a drone using directional antennas.
+      link: "portfolio/tracking-antenna"
+      tools:
+        - cplusplus
+        - stmicroelectronics
+projects:
+  enable: false
   item:
     - title: WARG - Zeropilot
       description: C++ on an STM32 with freertos for a quadcopter attitude control, complete with sensor fusion and state
@@ -76,7 +104,3 @@ leadership:
       title: Young Leader
       company: The Scout Association
       duration: September 2014 - July 2018
-portfolio:
-  filter:
-    - label: Web Dev
-      value: web-dev
