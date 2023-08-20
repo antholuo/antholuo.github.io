@@ -1,20 +1,21 @@
 ---
 banner:
-  title: Hi! It's Anthony
-social:
-  twitter: ""
-  linkedin: antholuo
-  github: antholuo
-  gitlab: ""
-  facebook: ""
-  instagram: ""
-  gmail: a26luo+website
+  title: Hi! It's me - Anthony
+# social:
+#   twitter: ""
+#   linkedin: antholuo
+#   github: antholuo
+#   gitlab: ""
+#   facebook: ""
+#   instagram: ""
+#   gmail: a26luo+website
+  image: 
 about:
   enable: true
-  content: "3rd year Computer Engineering student.
-  Experienced in FPGA's, ASIC's, and embedded software."
+  content: "I'm a 3rd year Computer Engineering student,
+  experienced in FPGA's, ASIC's, and embedded software with a passion for drones and computing architecture."
   button:
-    btnText: Find out more
+    btnText: Learn more about me!
     URL: "/about"
 skill:
   enable: false
