@@ -1,1 +1,58 @@
-theme = 'ananke'
+# basic site setup / functionality
+baseURL = "https://antholuo.com"
+languageCode = "en-us"
+title = "Anthony Luo"
+theme = "hugo-developer-portfolio"
+
+# plugins (mandatory)
+[params.plugins]
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+
+# navigation
+[menu]
+  [[menu.main]]
+    name = "About"
+    URL = "about"
+    weight = 1
+  [[menu.main]]
+    name = "Work Experience"
+    URL = "work"
+    weight = 5
+  [[menu.main]]
+    name = "Project Portfolio"
+    URL = "projects"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    URL = "blog"
+    weight = 2
+
+# configuration params
+[params]
+  home = "Home"
+  description = "Anthony Luo, 3rd year Computer Engineering student at the University of Waterloo."
+  author = "Anthony Luo"
+  show_reading_time = false
+
+  [params.footer]
+    email = "a26luo+website@uwaterloo.ca"
+    address = "Ontario, Canada"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "rainbow_dash"
+    tabWidth = 4

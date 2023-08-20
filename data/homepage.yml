@@ -1,0 +1,82 @@
+---
+banner:
+  title: Hi! It's Anthony
+social:
+  twitter: ""
+  linkedin: antholuo
+  github: antholuo
+  gitlab: ""
+  facebook: ""
+  instagram: ""
+  gmail: a26luo+website
+about:
+  enable: true
+  content: "3rd year Computer Engineering student.
+  Experienced in FPGA's, ASIC's, and embedded software."
+  button:
+    btnText: Find out more
+    URL: "/about"
+skill:
+  enable: false
+  item:
+    - title: JavaScript
+      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      description: Details coming soon, contact me if you want to know more
+experience:
+  enable: true
+  item:
+    - logo: https://www.hulalakeside.com/upload/photos/183_beta-technologies-logo.png
+      title: Flight Controls Co-Op
+      company: Beta Technologies
+      duration: present
+    - logo: https://images.squarespace-cdn.com/content/v1/5f8756dc4930e23c50399ae9/1602788477446-B86T31504049U97JE8BI/UntetherAI+logo.png
+      title: ASIC Digital Formal Verification Co-Op
+      company: Untether AI
+      duration: January 2023 - April 2023
+    - logo: https://images.squarespace-cdn.com/content/v1/5f8756dc4930e23c50399ae9/1602788477446-B86T31504049U97JE8BI/UntetherAI+logo.png
+      title: ASIC/FPGA Diggital Verification Co-Op
+      company: Untether AI
+      duration: April 2022 - May 2022
+    - logo: https://pbs.twimg.com/media/DHxLPMWWAAUIyfU?format=jpg&name=900x900
+      title: ASIC Digital Design Co-Op
+      company: Ciena
+      duration: September 2021 - December 2021
+    - logo: https://pbs.twimg.com/media/DHxLPMWWAAUIyfU?format=jpg&name=900x900
+      title: ASIC Digital Verification Co-Op
+      company: Ciena
+      duration: January 2021 - April 2021
+    - logo: https://www.nokia.com/sites/default/files/styles/scale_543_x_375_gallery/public/2023-02/nokia-refreshed-logo-2_1.png.webp
+      title: Software Engineering Co-Op
+      company: Nokia
+      duration: May 2020   - August 202
+projects:
+  enable: true
+  item:
+    - title: WARG - Zeropilot
+      description: C++ on an STM32 with freertos for a quadcopter attitude control, complete with sensor fusion and state
+      image: https://www.mouser.ca/images/marketingid/2014/img/150422015.png?v=070223.0230
+      url: none
+certifications:
+  enable: false
+  item:
+    - title: Microsoft Azure Fundamentals
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
+      url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url
+education:
+  enable: true
+  item:
+    - title: B. Asc in Computer Engineering
+      year: 2020-2025
+      academy: University of Waterloo
+      image: https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/University_of_Waterloo_seal.svg/1200px-University_of_Waterloo_seal.svg.png
+leadership:
+  enable: false
+  item:
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793280/logos/logos_yl_qozav6.webp
+      title: Young Leader
+      company: The Scout Association
+      duration: September 2014 - July 2018
+portfolio:
+  filter:
+    - label: Web Dev
+      value: web-dev
