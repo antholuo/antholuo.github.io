@@ -71,20 +71,25 @@ portfolio:
     - title: PEGASUS
       image: https://media.discordapp.net/attachments/814735217838260224/1140052791449112708/full_drone.png?width=575&height=431
       description: PEGASUS is a multi-purpose drone designed around heavy-lift and high-efficiency. Since 2023, I have been the Technical Director and primary systems integration engineer for all WARG projects! As part of the pegasus project, I managed the deployment of autonomous flight features, integration of most RF communications devices, as well as the control systems with the propulsion system! I continue to work alongside my team directors and sub-teams to put together a strong competitor for AEAC 2024.
+      time: May 2023 - Present
       link: "portfolio/pegasus"
       tools:
         - confluence
         - asana
         - python
         - raspberrypi
+        - pytorch
         - github
     - title: ZeroPilot
       image: https://lh3.googleusercontent.com/pw/AIL4fc9x-a5ceits4u11iOaPRqAzO_nZAUP8_qldAEpMN_Ns2ia_b9onuVTFlk7dc7tTFwe920essE_2IQdMY7iJKYFV3RWKobOCCBgKmnb4gf36wp7Ejj6UrTanjcIJvPCnRMikbrcLUuj2LPJdjq6rZQAeaElvMlmQNoMNC11QCaTL_IBtyZc65ovTbBUcZT6O7PBhBXhLQIEba5JbBoG-PMH5Clx0h-_L3wn7NcSYbPL2wuLfsxY2uAM6-B2nbXVuOQfYivv3LLLeKABQ8oyVB1clcRT6bkBJkVv02n5qQVc3ZPtr3KQWreLf8HC1PPKi4LL5fbRv52qc34zJM22aIc0dzh6PpuF-eKeq-gSd-y1G3yZDW6MTpdJhJmjy8WOaWaJOarRMgy92eFA-8-tsXFiwJBod6o0hJigfn3TQ3jm155PMHB2yfD1dJXGWhe0ss36APCHEuJeZIOPvZcXCApR65WKk1PxbzCThBtPIWit7gvf7_DxHLUKKhQDm4S20hBd4l6PN-n-EMqI08iW98_FzSt5PLVNYn1Ipv7_QeZGAX0xNEc66xoZCiuhIj7Y71KLhPMmmUnlZ1MxlP_gLKxnN8ub233djkiptFKOvtDj_CdJb-ucedsEBEhuxzd9-N-QiNB89paevvQuLypO9QhEoSVPOv16bO7Cjtle7vp6tmUrFx6Hav_0C778BXAO0FdQDHZnwjP1RDCC7D_qFDdZz8ang_MgtKwGEp-_GFoCare2f-hYUfK2ItylnGwon_9akiNi1kOsRQ8n2Gqslnr0sRNAx2tT4C-PQWLcz9U-8nZg0jXOT7lUHUjfkutwoOR5dCM7Wn7RFlGyc0HRiZroYqGu-XDGQxnWztWGe7QClZfHVjLqkvpCRkEb-stuhSuAglc9A_PdQTDpIXmHtX4A=w1743-h1307-s-no?authuser=0
       description: STM32-based flight controller, complete with FreeRTOS, attitude control, sensor fusion, state estimtion, path planning.
+      time: January 2021 - Present
       link: "portfolio/zp"
       tools:
         - cplusplus
         - stmicroelectronics
+        - cmake
+        - visualstudiocode
         - asana
         - github
     - title: Tracking Antenna
@@ -95,8 +100,23 @@ portfolio:
       tools:
         - cplusplus
         - stmicroelectronics
+        - cmake
+        - visualstudiocode
         - asana
         - github
+    - title: VANGUARD
+      image: https://lh3.googleusercontent.com/pw/AIL4fc-9fsPv7Bhca06AYtLqX5Brn7aI4w2QNHH265K4ZY_V_hnpTLTRZbSc8jZLCHhtQeMcTIbhrGNl7D9uwtuy2iGVbrWH4LEi9LdGAD6aPYkEeTHAjOQT4wS2gAw70PQW_ichmhaKSTJTunvObXDz1mVsWMFK5_KZhEBJvyMtpg89AGEaG5oUBIRFBfGOhF7egiKSleqbx8Qa8IJfGuA62k5nPfOBMA7oXaPe9sTn8gNGmncCQj74wfajJRXthCD6NJcksa6xI1dVmdnIvtl-mS8u3gBouiuYlyklSRCNMGGnSF-evz3MhzTVfdQk3hSAe1ayGmhoHF_dK550lC6J3-1FvrWSHZ9vhy6Uo4l5wlon2sHjyD_ZlVIaOwOU4JshzaGfs24Res8g_jU-J2hXeqE1JRFrI9UF1VipEUJ0XBcfEneN0bqwu5dTdSptG6sEBFghXORuqY8nKlcSkNk6gtE9EbWCgtzlklQSX8cH7zz2NqnOVVGOZFof4jYqIGCK7Jaz1pUKmhhXrb5tXpFHAtr44VOU-N2XXHL7DVj58jK96n7EfZH7R29GsPtN9yoNm1MgYKe9MQDmZtlL_vtrNlT5gYCtTlc_F_uzVkbB-9HJe-nMF2ENaUd-Th94IHmlrIWnY90XKAI1NJrlFUph_R8HxhqATroBOiBodGtckvwPAlEuJ-novW6IOHQX6IzOhHHi4T5YGp9Wxa8bbANlbQypEPHZYDAon0PXtlHcOxYs488GOqebarzkiQL21g-GTafNW9m8zCfX1G_eB4v_r689QQV5k3Hz4lXUXXfqVqRtJPmWE7R4ARe4tbcG4lir55g_C5ry2NUPSVyHtl5ntz_6sz0LcO50I2Y1BVn5yjD0M0dlHCo8cJvArh_uDJSpa-KD_EglpYmYq-tmR5WYmFE=w1973-h1315-s-no?authuser=0
+      description: VANGUARD was WARG's first quadcopter since re-start, and was designed primarily around the goals of being cost-effective and simple. As part of the project VANGUARD team, I acted as the embedded software lead; writing software for flight controls, firmware for sensor drivers, radio receivers, and other auxilirry peripherals.
+      time: Nov 2021 - April 2022
+      link: "portfolio/vanguard"
+      tools:
+        - cplusplus
+        - stmicroelectronics
+        - cmake
+        - visualstudiocode
+        - asana
+        - github
+
 projects:
   enable: false
   item:
