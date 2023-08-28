@@ -41,9 +41,9 @@ theme = "hugo-developer-portfolio"
   author = "Anthony Luo"
   show_reading_time = false
 
-  [params.footer]
-    email = "a26luo+website@uwaterloo.ca"
-    address = "Ontario, Canada"
+#  [params.footer]
+#    email = "a26luo+website@uwaterloo.ca"
+#    address = "Ontario, Canada"
 
 [markup]
   [markup.highlight]
