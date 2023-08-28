@@ -7,6 +7,13 @@
 {{ $index := resources.Get "css/index.css" | minify }}
 <link rel="stylesheet" href="{{ $index.Permalink | relURL}}">
 
+<style>
+  html {
+    scroll-behavior: smooth;
+    scroll-padding: 4em;
+  }
+</style>
+
 <!--
   _    _
  | |  | |                             /\
@@ -300,7 +307,7 @@
 <!-- experience -->
 {{ if .Site.Data.homepage.experience.enable }}
 
-<section class="uk-margin-large-bottom">
+<section id="Work" class="uk-margin-large-bottom uk-margin-large-top">
   <div class="uk-container">
     <h1 class="uk-heading-line  uk-heading-medium"><span>Experience</span></h1>
 
@@ -336,7 +343,7 @@
 <!-- portfolio -->
 {{ if .Site.Data.homepage.portfolio.enable }}
 
-<section class="uk-margin-large-bottom uk-margin-large-top">
+<section class="uk-margin-large-bottom uk-margin-large-top" id="Portfolio">
   <div class="uk-container">
     <h1 class="uk-heading-line  uk-heading-medium"><span>Projects</span></h1>
     {{ range .Site.Data.homepage.portfolio.item }}
