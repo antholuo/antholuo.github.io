@@ -43,7 +43,7 @@ experience:
       duration: present
       link: "MCFBWSW_BETA"
       funny: Making things go brr so the plane keeps flying
-      long_desc: At BETA Technologies, I worked in C to write software for STM32 microcontrollers! I worked primarily on motor inverters (3-phase motor control) as well as fly-by-wire systems. I gained a lot of experience working with CAN networks, as well as with embedded software bringup in a safety-critical situation.
+      long_desc: At BETA Technologies, I worked in C to write software for STM32 microcontrollers! I worked primarily on motor inverters (3-phase motor control) as well as fly-by-wire systems. I gained a lot of experience working with CAN networks, as well as with FAA-certifiable embedded software controllers.
       tools:
         - stmicroelectronics 
         - c
@@ -57,6 +57,8 @@ experience:
       link: "ASICDFVC_UAI"
       funny: Keeping integers in memory
       long_desc: I worked with Formal Verification techniques to bring up a full testbench for datatype conversion modules.
+      tools:
+        - git
     - logo: https://images.squarespace-cdn.com/content/v1/5f8756dc4930e23c50399ae9/1602788477446-B86T31504049U97JE8BI/UntetherAI+logo.png
       title: ASIC/FPGA Digital Verification Co-Op
       company: Untether AI
