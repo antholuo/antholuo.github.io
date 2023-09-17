@@ -56,7 +56,7 @@ experience:
       duration: January 2023 - April 2023
       link: "ASICDFVC_UAI"
       funny: Keeping integers in memory
-      long_desc: I worked with Formal Verification techniques to bring up a full testbench for datatype conversion modules.
+      long_desc: I worked with Formal Verification techniques to bring up a full formal testbench for datatype conversion modules.
       tools:
         - git
     - logo: https://images.squarespace-cdn.com/content/v1/5f8756dc4930e23c50399ae9/1602788477446-B86T31504049U97JE8BI/UntetherAI+logo.png
