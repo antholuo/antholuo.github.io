@@ -42,7 +42,7 @@ experience:
       company: Beta Technologies
       duration: present
       link: "MCFBWSW_BETA"
-      funny: Making things go brr so the plane keeps flying
+      funny: Filtering Stick Inputs, Controlling Motors, and creating communication busses
       long_desc: At BETA Technologies, I worked in C to write software for STM32 microcontrollers! I worked primarily on motor inverters (3-phase motor control) as well as fly-by-wire systems. I gained a lot of experience working with CAN networks, as well as with FAA-certifiable embedded software controllers.
       tools:
         - stmicroelectronics 
@@ -55,7 +55,7 @@ experience:
       company: Untether AI
       duration: January 2023 - April 2023
       link: "ASICDFVC_UAI"
-      funny: Keeping integers in memory
+      funny: Formal verification for AI Processors
       long_desc: I worked with Formal Verification techniques to bring up a full formal testbench for datatype conversion modules.
       tools:
         - git
@@ -63,17 +63,25 @@ experience:
       title: ASIC/FPGA Digital Verification Co-Op
       company: Untether AI
       duration: April 2022 - May 2022
+      funny: ASIC Verification for AI Processors
+      long_desc: I worked with UVM tools in SystemVerilog to bring up testbenches around command-queuing and dataflow operations around the PE core.
+      tools:
+        - git
       link: "ASICDVC_UAI"
     - logo: https://writingmachine.com/agency/wp-content/uploads/sites/11/2017/05/logo-Ciena-featured.png
       title: ASIC Digital Design Co-Op
       company: Ciena
       duration: September 2021 - December 2021
+      funny: Designing XCON bridges for external registers!
+      long_desc: I worked with the Digital Design team to overhaul a register access protocol, and learned about Clock domain Crossings, backpressure, flow control, and a lot about system verilog and how to organize projects within system verilog!
       link: "ADDC_CIENA"
     - logo: https://writingmachine.com/agency/wp-content/uploads/sites/11/2017/05/logo-Ciena-featured.png
       title: ASIC Digital Verification Co-Op
       company: Ciena
       duration: January 2021 - April 2021
       link: "ADVC_CIENA"
+      funny: Python & UVM Verification!
+      long_desc: Working with the Formal Verification and devops team to implement CI/CD pipelines and create Python modules to instantiate modules and registers faster!
     - logo: https://www.nokia.com/sites/default/files/styles/scale_543_x_375_gallery/public/2023-02/nokia-refreshed-logo-2_1.png.webp
       title: Software Engineering Co-Op
       company: Nokia
