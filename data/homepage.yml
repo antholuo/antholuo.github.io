@@ -8,15 +8,15 @@ banner:
 #   gitlab: ""
 #   facebook: ""
 #   instagram: ""
-#   gmail: a26luo+website
+  # gmail: a26luo+website
   image: 
 about:
   enable: true
   content: "I'm a 3rd year Computer Engineering student,
-  experienced in FPGA's, ASIC's, and embedded software with a passion for drones and computing architecture."
-  button:
-    btnText: Learn more about me!
-    URL: "/about"
+  experienced in FPGA's, ASIC's, and embedded software with a passion for drones and computing architecture. I'm currently the Technical Director with Waterloo's Aerial Robotics Group, and love to go outdoors!"
+  # button:
+  #   btnText: Resume
+  #   URL: "res.pdf"
 skill:
   enable: false
   item:
@@ -43,7 +43,7 @@ experience:
       duration: present
       link: "MCFBWSW_BETA"
       funny: Filtering Stick Inputs, Controlling Motors, and creating communication busses
-      long_desc: At BETA Technologies, I worked in C to write software for STM32 microcontrollers! I worked primarily on motor inverters (3-phase motor control) as well as fly-by-wire systems. I gained a lot of experience working with CAN networks, as well as with FAA-certifiable embedded software controllers.
+      long_desc: At BETA Technologies, I worked in C and MATLAB/SIMULINK to develop inverter control software! My job involves bringing updates to our Controller Model, adding feature support in STM32 Micros, and supporting the testing and deployment of our software onto motor dynos and aircraft inverters! I work closely with systems, motors, and electrical teams in order to bring forward safety-critical software. I commonly use protocols such as I2C, SPI, UART, JTAG, and CAN; while also using logic analyzers, oscilloscopes, DMM's, bench power supplies, and HV power supplies in the debug process.
       tools:
         - stmicroelectronics 
         - c

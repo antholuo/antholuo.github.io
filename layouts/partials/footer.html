@@ -1,0 +1,22 @@
+<!-- footer -->
+<footer class="footer">
+    <div class="uk-margin-small-top">
+  
+  
+      <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
+        <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
+    width: 1.2em;" alt="Creative Commons">
+        <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
+    width: 1.2em;" alt="CC-BY">
+        {{ now.Year }}
+        {{.Site.Params.Author}}
+      </div>
+    </div>
+  </footer>
+  
+  
+  {{ "<!-- JS Plugins -->" | safeHTML }}
+  {{ range .Site.Params.plugins.js}}
+  <script src="{{ .URL | absURL }}"></script>
+  {{ end }}
+  
